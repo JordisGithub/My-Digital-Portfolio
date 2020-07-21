@@ -51,7 +51,11 @@ class MenuItem extends React.Component {
             </li>
 
             <li>
-              <a href="https://docdro.id/eRBSl4B" target="_blank">
+              <a
+                href="https://docdro.id/eRBSl4B"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Resume
               </a>
             </li>

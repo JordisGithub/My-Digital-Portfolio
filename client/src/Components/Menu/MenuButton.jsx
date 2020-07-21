@@ -25,11 +25,8 @@ class MenuButton extends React.Component {
         // border: "red solid 2pt",
         display: "flex",
         flexDirection: "column",
-        justifyContent: "center",
         alignItems: "center",
-        cursor: "pointer",
         padding: "4px",
-
         position: "absolute",
         top: "3rem",
         right: "5rem",
@@ -78,7 +75,6 @@ class MenuButton extends React.Component {
         right: "-.2rem",
         bottom: "0rem",
         width: "60%",
-        transformOrigin: "5% -90%",
         transformOrigin: "30% -425%",
         transform: this.state.open
           ? "rotate(-300deg) translateX(1rem)"

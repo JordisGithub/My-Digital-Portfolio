@@ -75,6 +75,7 @@ export default function MyWork() {
                 href="https://sustainable-fashion-app.herokuapp.com/"
                 className="btn"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 See Live Site
               </a>
@@ -82,6 +83,7 @@ export default function MyWork() {
                 href="https://github.com/JordisGithub/sustainable-fashion-hub"
                 className="btn"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 See Code
               </a>
@@ -149,6 +151,7 @@ export default function MyWork() {
             <div className="portfolio-links">
               <a
                 href="https://supernova-gems.netlify.app/"
+                rel="noopener noreferrer"
                 className="btn"
                 target="_blank"
               >
@@ -158,6 +161,7 @@ export default function MyWork() {
                 href="https://github.com/JordisGithub/supernova-gems"
                 className="btn"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 See Code
               </a>
@@ -218,6 +222,7 @@ export default function MyWork() {
                 href="https://chikalicious.surge.sh/"
                 className="btn"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 See Live Site
               </a>
@@ -225,6 +230,7 @@ export default function MyWork() {
                 href="https://github.com/JordisGithub/chikalicious"
                 className="btn"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 See Code
               </a>
@@ -287,6 +293,7 @@ export default function MyWork() {
                 href="https://sustainable-fashion-movement.netlify.app/#/"
                 className="btn"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 See Live Site
               </a>
@@ -299,69 +306,6 @@ export default function MyWork() {
               </a>
             </div>
           </div>
-
-          {/* Portfolio item 5 */}
-          {/* <div className="portfolio-item">
-            <div className="portfolio-item-title">Sustainable Makeup Looks</div>
-
-            <div className="porfolioitem-image-container">
-              <img
-                src="https://i.imgur.com/8v4WqTJ.jpg"
-                alt=""
-                className="portfolio__img"
-              />
-            </div>
-
-            <div className="portfolio-description">
-              <h1 className="portfolio-item-tagline">
-                Experience a lifetime adventure. Save up on your holiday
-              </h1>{" "}
-              <div className="portfolio-item-longdescription">
-                Modern consumers have a growing global consciousness, and they
-                care about social and environmental responsibility. As we become
-                more ecologically aware, consumers demand natural, low-polluting
-                beauty products. My app aims to illustrate we can re-create the
-                looks we love with sustainable cosmetics. Pick your desired look
-                and we will yield a digital makeupbag with all the products
-                needed to slay the desired look.
-                <p className="longdexcription-bullet">
-                  {" "}
-                  a SaaS platform for tour operators and activity providers, to
-                  manage their offers, customers, orders, and agents cooperation
-                </p>
-                <p className="longdexcription-bullet">
-                  a marketplace for end-customers to book the local tours and
-                  activities while or before the travelling.
-                </p>
-              </div>
-            </div>
-
-            <div className="portfolio-techused">
-              <h6>TECHNOLOGIES USED</h6>
-              <div className="techused-details">
-                <p>Ruby</p>
-                <p>React</p>
-                <p>Rails</p>
-              </div>
-            </div>
-
-            <div className="portfolio-links">
-              <a
-                href="http://sustainable-makeup-bag.surge.sh/"
-                className="btn"
-                target="_blank"
-              >
-                See Live Site
-              </a>
-              <a
-                href="https://github.com/JordisGithub/Sustainable-Makeup-Bag"
-                className="btn"
-                target="_blank"
-              >
-                See Code
-              </a>
-            </div>
-          </div> */}
         </div>
       </section>
     </>

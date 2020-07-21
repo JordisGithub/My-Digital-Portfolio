@@ -24,11 +24,7 @@ function Header() {
             ]}
           />
         </div>
-        <img
-          src={Jordi_01}
-          alt="Picture of Jordi in Brooklyn"
-          className="intro__img"
-        />
+        <img src={Jordi_01} alt="Jordi in Brooklyn" className="intro__img" />
       </section>
     </>
   );

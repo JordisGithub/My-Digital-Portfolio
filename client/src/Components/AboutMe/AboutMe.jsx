@@ -35,6 +35,7 @@ function AboutMe() {
                     href="https://github.com/JordisGithub"
                     className="icon-link"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-github-square"></i>
                   </a>
@@ -44,6 +45,7 @@ function AboutMe() {
                     href="https://www.linkedin.com/in/jordania-pereyra/"
                     className="icon-link"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-linkedin"></i>
                   </a>
@@ -53,6 +55,7 @@ function AboutMe() {
                     href="https://www.instagram.com/jordi_515/"
                     className="icon-link"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-instagram"></i>
                   </a>
@@ -62,6 +65,7 @@ function AboutMe() {
                     href="https://twitter.com/jordip515?lang=en"
                     className="icon-link"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-twitter"></i>
                   </a>
