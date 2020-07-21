@@ -13,16 +13,6 @@ class MenuItem extends React.Component {
   }
 
   render() {
-    const styles = {
-      line: {
-        width: "90%",
-        height: "1px",
-        // background: "gray",
-        margin: "0 auto",
-        animation: "0.5s shrink forwards",
-        animationDelay: this.props.delay,
-      },
-    };
     return (
       <>
         <div
