@@ -22,7 +22,6 @@ class MenuButton extends React.Component {
   render() {
     const styles = {
       container: {
-        // border: "red solid 2pt",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -85,6 +84,7 @@ class MenuButton extends React.Component {
     return (
       <>
         <div
+          className="burgermenu-lines"
           style={styles.container}
           onClick={
             this.props.onClick
