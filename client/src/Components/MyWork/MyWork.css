@@ -1,0 +1,197 @@
+.my-work {
+  background-color: var(--clr-dark);
+
+  color: var(--clr-light);
+  text-align: center;
+}
+
+.my-work .section__title {
+  font-size: 10rem;
+  opacity: 0.3;
+}
+
+.my-work .section__subtitle {
+  font-size: 1.6rem;
+  margin: -20px 0 20px;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.portfolio-item {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "heading  heading heading heading heading heading"
+    "img      img     img     desc    desc    desc"
+    "img      img     img     desc    desc    desc"
+    "img      img     img     tech    tech    tech"
+    "img      img     img     dep     dep     dep"
+    "img      img     img     links   links   links";
+  background: var(--clr-accent);
+  background-image: url("https://i.imgur.com/94KvXLY.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 45px;
+}
+
+/* =====================================
+====Portfolio Item Title ======== =======
+======================================== */
+
+.portfolio-item-title {
+  grid-area: heading;
+  font-size: 4rem;
+  margin: 15px 0 50px;
+  color: #333;
+}
+
+/* ===================================================
+===Portfolio description highlight and paragraph======
+=================================================== */
+
+.portfolio-item .portfolio-description {
+  grid-area: desc;
+  width: 50vw;
+}
+
+.portfolio-item-tagline {
+  color: #333;
+  font-size: 2.3rem;
+  width: 85%;
+  margin: auto;
+}
+
+.portfolio-item-longdescription {
+  color: #333;
+  margin-top: 20px;
+  text-align: justify;
+  width: 85%;
+  margin: 30px auto;
+  font-size: 1.3rem;
+}
+
+/* =====================================
+====Live site and see code links =======
+======================================== */
+
+.portfolio-links {
+  grid-area: links;
+}
+
+.portfolio-links .btn {
+  margin: 0 20px 40px;
+}
+
+/* ===============================
+====Portfolio Tech Used =======
+=============================== */
+
+.portfolio-techused {
+  grid-area: tech;
+  width: 60%;
+  margin: auto;
+  color: #333;
+}
+
+.portfolio-techused h6 {
+  /* grid-area: heading; */
+  width: 100%;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.techused-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+/* ===============================
+====Portfolio dependancies=====
+=============================== */
+.portfolio-dependencies {
+  /* border: solid 2pt red; */
+  grid-area: dep;
+  width: 60%;
+  margin: auto;
+  color: #333;
+}
+
+.portfolio-dependencies h6 {
+  /* grid-area: heading; */
+  width: 100%;
+  font-size: 2rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.dependencies-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+}
+/* ===============================
+====Portfolio wireframes =========
+=============================== */
+
+.porfolioitem-image-container {
+  grid-area: img;
+  max-height: 700px;
+  overflow: scroll;
+  border-radius: 2px;
+  box-shadow: 0 0 16px #333;
+  transition: all 1.5s ease;
+  margin-bottom: 30px;
+}
+
+.porfolioitem-image-container::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.porfolioitem-image-container::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+.porfolioitem-image-container::-webkit-scrollbar:horizontal {
+  height: 11px;
+}
+
+.porfolioitem-image-container::-webkit-scrollbar-thumb {
+  /* border-radius: 8px; */
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* =======================================
+===========Media Queries===============
+======================================= */
+
+@media (max-width: 870px) {
+  .portfolio-item-title {
+    font-size: 4.5vw;
+  }
+
+  .portfolio-item-tagline {
+    font-size: 2.3vw;
+  }
+
+  .portfolio-item-longdescription {
+    font-size: 1.3vw;
+  }
+
+  .portfolio-techused h6,
+  .portfolio-dependencies h6 {
+    border: solid red 2pt;
+    font-size: 2.5vw;
+  }
+
+  .dependencies-details,
+  .techused-details {
+    font-size: 1.7vw;
+  }
+}

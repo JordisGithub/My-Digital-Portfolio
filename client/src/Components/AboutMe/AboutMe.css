@@ -1,0 +1,103 @@
+.about-nav-list {
+  /* border: solid green 2pt; */
+  list-style: none;
+  display: flex;
+  font-size: 16pt;
+  margin-top: 20pt;
+}
+
+.container {
+  /* border: solid green 2pt; */
+}
+.about-details {
+  font-size: 1.3rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "heading heading heading"
+    "img description description"
+    "social social social";
+}
+
+.about-heading {
+  /* border: solid red 2pt; */
+  grid-area: heading;
+  margin-top: 0;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 0;
+  margin-bottom: 4rem;
+}
+
+.about-heading h1 {
+  font-size: 10rem;
+  opacity: 0.3;
+}
+
+.about-heading h6 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.aboutme-img {
+  grid-area: img;
+  border-image-outset: unset;
+  border: 2pt solid;
+}
+
+.about-details p {
+  /* border: solid red 2pt; */
+  grid-area: description;
+  background-color: white;
+  padding: 0 20px;
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+.social-media {
+  grid-area: social;
+  margin-top: 5rem;
+  margin: auto;
+}
+
+.social-media i {
+  font-size: 5rem;
+  transition: color 650ms;
+}
+
+.fa-facebook-square:hover {
+  color: #4267b2;
+}
+
+.fa-github-square:hover {
+  color: #f1502f;
+}
+
+.fa-instagram:hover {
+  background: linear-gradient(#fd57bf, #ffe838);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+
+@media (max-width: 992px) {
+  .about-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "heading"
+      "img"
+      "description"
+      "social";
+  }
+
+  .container {
+    width: 100%;
+  }
+}

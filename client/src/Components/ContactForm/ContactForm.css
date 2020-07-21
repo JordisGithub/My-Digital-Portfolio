@@ -1,0 +1,41 @@
+.contact {
+  background-color: black;
+  border-bottom: 2pt solid;
+  /* background: linear-gradient(to top, #ff69b4, #c32c7f, #88004e); */
+}
+
+.section-heading {
+  color: white;
+}
+
+.section-heading h1 {
+  margin-bottom: 10px;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+form label {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 5px;
+  border: none;
+  outline-color: #fd57bf;
+}
+
+input[type="submit"] {
+  width: initial;
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
