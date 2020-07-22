@@ -101,3 +101,54 @@
     width: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  .about-heading h1 {
+    font-size: 4em;
+  }
+
+  .about-heading h6 {
+    font-size: 2rem;
+    margin-bottom: -25px;
+    /* font-weight: 300; */
+  }
+
+  .aboutme-img-container {
+    width: 60%;
+    margin: auto;
+  }
+  .aboutme-img {
+    grid-area: img;
+    border-image-outset: unset;
+    border: 2pt solid;
+  }
+
+  .about-details {
+    /* width: 75%; */
+    font-size: 1.3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "heading"
+      "img"
+      "description"
+      "social ";
+  }
+
+  .about-details p {
+    font-size: 1em;
+    width: 100%;
+    margin: 10px auto 0;
+  }
+
+  .about-nav-list {
+    /* border: solid red 3pt; */
+
+    margin-left: -40px;
+  }
+
+  .social-media i {
+    font-size: 2rem;
+  }
+}
