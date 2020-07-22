@@ -1,3 +1,7 @@
+/* =====================================================
+  =========Menu Items component=========================
+  ===================================================== */
+
 .nav-list {
   background: black;
 
@@ -48,7 +52,7 @@ li {
 }
 
 /* =====================================================
-=========Burger lines================================
+=========Menu Button Component================================
 ===================================================== */
 .burgermenu-lines-container {
   display: flex;
@@ -104,7 +108,7 @@ li {
 
 @media screen and (max-width: 800px) {
   /* =====================================================
-  =========burger Button media queries=========
+  =========Menu Button component=========
   ===================================================== */
   .burgermenu-lines-container {
     padding: 0;
@@ -127,8 +131,14 @@ li {
     transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57); */
   }
 
+  .linebottom {
+    transform-origin: 130% 990%;
+    transition: transform 650ms cubic-bezier(0.57, -0.81, 0.57, 0.57);
+    /* visibility: hidden; */
+  }
+
   /* =====================================================
-  =========burger container links=========================
+  =========Menu Items component=========================
   ===================================================== */
 
   .nav-links {
@@ -146,7 +156,11 @@ li {
   }
 
   .nav-links li a {
-    font-size: 25px;
+    font-size: 20px;
+  }
+
+  .nav-links {
+    margin-top: 50px;
   }
 
   .nav-list {
