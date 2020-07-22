@@ -26,6 +26,8 @@ export default function MyWork() {
             <div className="portfolio-description">
               <h1 className="portfolio-item-tagline">
                 sustainability scorecards ratings on your favorite designers.
+                <br />
+                Yup there's an app for that!
               </h1>
               <div className="portfolio-item-longdescription">
                 Sustainably Chic operates as a marketplace for mid to high
@@ -89,7 +91,9 @@ export default function MyWork() {
 
           {/* Portfolio item 2 */}
           <div className="portfolio-item">
-            <div className="portfolio-item-title">Supernova Gems</div>
+            <div className="portfolio-item-title">
+              E-Commerce Progressive Webapp
+            </div>
 
             <div className="porfolioitem-image-container">
               <img
