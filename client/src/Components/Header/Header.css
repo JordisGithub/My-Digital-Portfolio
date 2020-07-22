@@ -16,6 +16,10 @@
   position: relative;
 }
 
+.section__title {
+  margin-bottom: 0.25em;
+}
+
 .section__subtitle--intro {
   align-self: start;
   grid-column: -1 / 1;
@@ -24,6 +28,18 @@
   background-color: black;
   color: white;
   font-size: 2rem;
+  font-weight: var(--fw-reg);
+}
+
+.section__title--intro strong {
+  display: block;
+}
+
+.section__subtitle--intro,
+.section__subtitle--about {
+  padding: 0.25em 1em;
+  font-family: var(--ff-secondary);
+  margin-bottom: 1em;
 }
 
 .nav__link {
