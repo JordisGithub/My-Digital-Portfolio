@@ -108,7 +108,7 @@ li {
   ===================================================== */
   .burgermenu-lines-container {
     padding: 0;
-    height: 4rem;
+    height: 3rem;
     /* border: blue solid 3pt; */
   }
 
@@ -122,7 +122,7 @@ li {
   }
 
   .linemiddle {
-    top: 1.75rem;
+    top: 1.2rem;
     /* transform-origin: 55% 390%;
     transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57); */
   }
