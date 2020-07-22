@@ -103,6 +103,9 @@
 }
 
 @media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
   .about-heading h1 {
     font-size: 4em;
   }
@@ -137,7 +140,7 @@
   }
 
   .about-details p {
-    font-size: 1em;
+    font-size: 0.8em;
     width: 95%;
     margin: 10px auto 0;
   }
