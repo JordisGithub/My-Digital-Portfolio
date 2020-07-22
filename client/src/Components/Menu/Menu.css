@@ -160,7 +160,8 @@ li {
   }
 
   .nav-links {
-    margin-top: 10px;
+    margin: auto;
+    margin-top: 50px;
   }
 
   .nav-list {
