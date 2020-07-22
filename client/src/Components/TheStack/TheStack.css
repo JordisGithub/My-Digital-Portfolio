@@ -5,6 +5,7 @@
 }
 
 .stack-container h1 {
+  /* border: solid purple 2pt; */
   font-size: 55px;
   font-size: 7.5rem;
   text-transform: uppercase;
@@ -69,28 +70,76 @@
   height: 80px;
 }
 
-@media (min-width: 800px) {
-  .my-skills {
+@media (max-width: 800px) {
+  /* .my-skills {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  } */
+
+  .stack {
+    margin-top: -80px;
+  }
+  .stack-container h1 {
+    font-size: 3.5rem;
   }
 
-  .skill h1 {
+  .stack-container h6 {
     /* border: solid purple 2pt; */
-    margin: 2rem 0 0rem 0;
 
-    font-size: 1.7rem;
+    font-size: 1.25rem;
   }
 
   .icon-container {
-    width: 9rem;
-    height: 9rem;
+    width: 5rem;
+    height: 5rem;
   }
 
   .icon-container i {
-    font-size: 4.3rem;
+    font-size: 2rem;
+  }
+
+  .skill h1 {
+    letter-spacing: 1px;
+    margin: 2rem 0 0;
+    font-size: 1.2rem;
+    /* font-size: 0.5rem; */
+    height: 20px;
   }
 
   .skill p {
-    font-size: 1.3rem;
+    font-size: 0.6rem;
   }
+
+  .my-skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0rem;
+    text-align: center;
+  }
+
+  /* .skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  /* .icon-container {
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid gray;
+  
+    background: linear-gradient(to top, #ff69b4, #c32c7f, #88004e);
+    margin-top: 2rem;
+    display: flex;
+    transform: rotate(45deg);
+    opacity: 0.9;
+  } */
+
+  /* .icon-container i {
+    color: black;
+    font-size: 4.5rem;
+    margin: auto;
+    transform: rotate(-45deg);
+  } */
 }
