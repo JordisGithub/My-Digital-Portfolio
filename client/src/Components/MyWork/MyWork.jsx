@@ -61,8 +61,8 @@ export default function MyWork() {
                 <p>jsonwebtoken</p>
                 <p>sequelize</p>
                 <p>Nodemon</p>
-                <p>cors</p>
-                <p>body-parser</p>
+                {/* <p>cors</p> */}
+                {/* <p>body-parser</p> */}
                 <p></p>
               </div>
             </div>
@@ -139,8 +139,8 @@ export default function MyWork() {
                 <p>jsonwebtoken</p>
                 <p>sequelize</p>
                 <p>Nodemon</p>
-                <p>cors</p>
-                <p>body-parser</p>
+                {/* <p>cors</p> */}
+                {/* <p>body-parser</p> */}
                 <p></p>
               </div>
             </div>
@@ -211,6 +211,7 @@ export default function MyWork() {
               <div className="dependencies-details">
                 <p>React</p>
                 <p>Axios</p>
+                <p>react-router-dom</p>
               </div>
             </div>
 

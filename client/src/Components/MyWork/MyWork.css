@@ -206,7 +206,7 @@
   } */
 
   .portfolio-links .btn {
-    margin: 0 20px 40px;
+    margin: 10px 20px 20px;
     width: 120px;
     font-size: 8px;
   }
@@ -232,18 +232,19 @@
     margin-left: 20px;
     /* display: flex; */
     height: 90px;
+    margin-top: -20px;
   }
 
   .portfolio-techused h6,
   .portfolio-dependencies h6 {
-    font-size: 2vw;
+    font-size: 3vw;
     /* width: 150px; */
     margin-top: 20px;
   }
 
   .dependencies-details,
   .techused-details {
-    font-size: 1.7vw;
+    font-size: 2.4vw;
   }
 
   .porfolioitem-image-container {
