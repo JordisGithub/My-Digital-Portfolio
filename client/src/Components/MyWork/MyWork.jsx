@@ -25,13 +25,10 @@ export default function MyWork() {
 
             <div className="portfolio-description">
               <h1 className="portfolio-item-tagline">
-                Sustainably Chic is the ultimate Plattform of sustainable
-                shopping with sustainability scorecards to provide transparency
-                on the sustainability impact of your favoriye designers and
-                looks.
-              </h1>{" "}
+                sustainability scorecards ratings on your favorite designers.
+              </h1>
               <div className="portfolio-item-longdescription">
-                Sustainably posh operates as a marketplace for mid to high
+                Sustainably Chic operates as a marketplace for mid to high
                 market sustainable brands. We also include a sustainability
                 score rating model to rate the brands and provide full
                 transparency around the sustainability impact and rating factors
@@ -106,7 +103,7 @@ export default function MyWork() {
               <h1 className="portfolio-item-tagline">
                 Jewlery E-commerce App. Personally designed branding, wireframes
                 and marketing strategy
-              </h1>{" "}
+              </h1>
               <div className="portfolio-item-longdescription">
                 Supernova Gems is a high end jewlery e-commerce platform. This
                 e-Commerce was built to increase your sales, build customer
@@ -184,7 +181,7 @@ export default function MyWork() {
               <h1 className="portfolio-item-tagline">
                 Beautifully Built Restaurant Progressive Web Appp with
                 minimalist design.
-              </h1>{" "}
+              </h1>
               <div className="portfolio-item-longdescription">
                 This restaurant website was built to highlight how to
                 effectively improve the business's outreach, build a larger
@@ -252,19 +249,18 @@ export default function MyWork() {
             <div className="portfolio-description">
               <h1 className="portfolio-item-tagline">
                 Beautiful Fashion Blog focused on sustainability in the industry
-              </h1>{" "}
+              </h1>
               <div className="portfolio-item-longdescription">
                 Modern consumers have a growing global consciousness, and they
-                care about social and environmental responsibility. As we become
-                more ecologically aware, consumers demand transparency and
-                sustainable options. This Sustainable fashion blog was designed
-                with full resources for eco-conscious fashion consumers. This
-                includes a realtime commenting feature to capture feedback and
-                ideas from users visiting the site. Project Features curated
-                audience based content: Fast Fashion is #Cancelled - the real
-                cost of cheap fast garments, Sustainable Fashion brands we love,
-                Fashion footprint calculator, Fashion swaps are the new brunch,
-                Level up your Laundry game and Rent your wardrobe section.
+                care about social and environmental responsibility. This
+                Sustainable fashion blog was designed with full resources for
+                eco-conscious fashion consumers. This includes a realtime
+                commenting feature to capture feedback and ideas from users
+                visiting the site. Project Features curated audience based
+                content: Fast Fashion is #Cancelled - the real cost of cheap
+                fast garments, Sustainable Fashion brands we love, Fashion
+                footprint calculator, Fashion swaps are the new brunch, Level up
+                your Laundry game and Rent your wardrobe section.
               </div>
             </div>
 

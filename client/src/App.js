@@ -56,7 +56,7 @@ class App extends React.Component {
         <TheStack />
         {/* <Specializations /> */}
         <AboutMe />
-        {/* <MyWork /> */}
+        <MyWork />
         <Experience />
         <ContactForm />
 

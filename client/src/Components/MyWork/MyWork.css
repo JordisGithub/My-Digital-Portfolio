@@ -6,13 +6,13 @@
 }
 
 .my-work .section__title {
-  font-size: 10rem;
+  font-size: 7vw;
   opacity: 0.3;
 }
 
 .my-work .section__subtitle {
-  font-size: 1.6rem;
-  margin: -20px 0 20px;
+  font-size: 1.5vw;
+  margin: -10px 0 20px;
 }
 
 .portfolio {
@@ -171,27 +171,88 @@
 ===========Media Queries===============
 ======================================= */
 
-@media (max-width: 870px) {
+@media (max-width: 800px) {
+  .my-work .section__title {
+    font-size: 15vw;
+    margin-top: -30px;
+  }
+
+  .my-work .section__subtitle {
+    font-size: 3.5vw;
+    margin: -5px 0 20px;
+  }
+
   .portfolio-item-title {
     font-size: 4.5vw;
+    margin-bottom: 10px;
+  }
+
+  .portfolio-item {
+    grid-template-areas:
+      "heading  heading heading heading heading heading"
+      "img      img     img     desc    desc    desc"
+      "tech    tech    tech     dep     dep     dep"
+      "links   links   links     links   links   links";
+  }
+
+  .portfolio-description {
+    /* border: solid green 2pt; */
+    /* font-size: 8.3vw; */
+    height: fit-content;
+  }
+
+  /* .portfolio-links {
+    grid-area: links;
+  } */
+
+  .portfolio-links .btn {
+    margin: 0 20px 40px;
+    width: 120px;
+    font-size: 8px;
   }
 
   .portfolio-item-tagline {
-    font-size: 2.3vw;
+    font-size: 3vw;
   }
 
   .portfolio-item-longdescription {
-    font-size: 1.3vw;
+    font-size: 2.6vw;
+    /* border: solid blue 2pt; */
+    max-height: 250px;
+    margin-top: 10px;
+    width: 90%;
+    /* margin-bottom: -40px; */
+  }
+
+  .portfolio-techused,
+  .portfolio-dependencies {
+    /* border: solid red 2pt; */
+    display: block;
+    width: 150px;
+    margin-left: 20px;
+    /* display: flex; */
+    height: 90px;
   }
 
   .portfolio-techused h6,
   .portfolio-dependencies h6 {
-    border: solid red 2pt;
-    font-size: 2.5vw;
+    font-size: 2vw;
+    /* width: 150px; */
+    margin-top: 20px;
   }
 
   .dependencies-details,
   .techused-details {
     font-size: 1.7vw;
+  }
+
+  .porfolioitem-image-container {
+    /* grid-area: img; */
+    height: 300px;
+    /* overflow: scroll;
+    border-radius: 2px;
+    box-shadow: 0 0 16px #333;
+    transition: all 1.5s ease;
+    margin-bottom: 30px; */
   }
 }
