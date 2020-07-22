@@ -73,7 +73,7 @@ function Experience() {
         <div class="timeline-block timeline-block-right">
           <div class="marker"></div>
           <div class="timeline-content">
-            <h3>2008 - 2016 (HSBC Bank)</h3>
+            <h3>2008 - 2017 (HSBC Bank)</h3>
 
             <span>BUSINESS MANAGER HSBC Private Bank, New York, NY.</span>
             <p>
@@ -148,7 +148,7 @@ function Experience() {
         <div class="timeline-block timeline-block-left">
           <div class="marker"></div>
           <div class="timeline-content">
-            <h3>(Artistic Typography) 2005 - 2003 </h3>
+            <h3>(Artistic Typography) 2003 - 2005 </h3>
             <span>Graphic Design and Production</span>
             <p>
               Prepare final press-ready files based on supplied specifications
