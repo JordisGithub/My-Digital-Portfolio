@@ -55,7 +55,7 @@
     /* position: relative; */
     /* border: solid red 2pt; */
     width: 95%;
-    margin-top: 90px;
+    margin-top: 30px;
     grid-template-areas:
       "title"
       "subtitle"
@@ -74,5 +74,9 @@
     display: inline-block;
     font-size: 18px;
     text-align: left;
+  }
+
+  .section__title--intro strong {
+    font-size: 30px;
   }
 }

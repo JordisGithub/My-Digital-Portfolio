@@ -117,8 +117,8 @@ li {
   .linebottom {
     background: black;
     background: linear-gradient(to top, #ff69b4, #c32c7f, #88004e);
-    width: 70%;
-    left: 60px;
+    width: 60%;
+    left: 70px;
   }
 
   .linemiddle {
