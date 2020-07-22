@@ -13,7 +13,7 @@ import Footer from './Components/Footer/Footer'
 import MenuItems from './Components/Menu/MenuItems'
 import MenuButton from './Components/Menu/MenuButton'
 import Menu from './Components/Menu/Menu'
-import './Components/Menu/Menu.css'
+
 
 
 class App extends React.Component {

@@ -48,17 +48,88 @@ li {
 }
 
 /* =====================================================
-=========Menu Button media queries=========
+=========Burger lines================================
 ===================================================== */
+.burgermenu-lines-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+  position: absolute;
+  top: 3rem;
+  right: 5rem;
+  width: 7rem;
+  height: 5rem;
+  transition: transform 650ms ease-out;
+  cursor: pointer;
+  z-index: 1500;
+  /* justify-content: space-between; */
+  /* background: black; */
+}
+
+.linetop,
+.linemiddle,
+.linebottom {
+  background: linear-gradient(to top, #ff69b4, #c32c7f, #88004e);
+  width: 100%;
+  height: 7px;
+  border-radius: 0.8rem;
+  transition: all 0.2s ease;
+}
+
+.linetop {
+  position: absolute;
+  top: 0;
+  right: 2.9rem;
+  width: 60%;
+  transform-origin: -10% 150%;
+  transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+}
+
+.linemiddle {
+  position: absolute;
+  top: 2rem;
+  transform-origin: 55% 390%;
+  transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+}
+
+.linebottom {
+  position: absolute;
+  right: -0.2rem;
+  bottom: 0rem;
+  width: 60%;
+  transform-origin: 30% -425%;
+  transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+}
 
 @media screen and (max-width: 800px) {
-  .burgermenu-lines {
-    /* background-color: aqua; */
-    /* border: solid red 3pt; */
-
-    margin-bottom: 300px;
-    left: 20pt;
+  /* =====================================================
+  =========burger Button media queries=========
+  ===================================================== */
+  .burgermenu-lines-container {
+    padding: 0;
+    height: 4rem;
+    /* border: blue solid 3pt; */
   }
+
+  .linetop,
+  .linemiddle,
+  .linebottom {
+    background: black;
+    background: linear-gradient(to top, #ff69b4, #c32c7f, #88004e);
+    width: 70%;
+    left: 60px;
+  }
+
+  .linemiddle {
+    top: 1.75rem;
+    /* transform-origin: 55% 390%;
+    transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57); */
+  }
+
+  /* =====================================================
+  =========burger container links=========================
+  ===================================================== */
 
   .nav-links {
     height: 100%;
@@ -76,5 +147,21 @@ li {
 
   .nav-links li a {
     font-size: 25px;
+  }
+
+  .nav-list {
+    height: 50rem;
+    margin-top: -100px;
+    /* transition: "height 0.3s ease"; */
+    /* z-index: 2; */
+    /* position: fixed; */
+    /* transition: all 650ms cubic-bezier(1, 0, 0, 1); */
+    /* new */
+    /* list-style: none; */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
   }
 }

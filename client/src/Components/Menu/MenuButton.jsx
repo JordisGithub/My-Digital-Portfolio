@@ -1,4 +1,5 @@
 import React from "react";
+import "./Menu.css";
 
 class MenuButton extends React.Component {
   constructor(props) {
@@ -21,71 +22,28 @@ class MenuButton extends React.Component {
 
   render() {
     const styles = {
-      container: {
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        padding: "4px",
-        position: "absolute",
-        top: "3rem",
-        right: "5rem",
-        width: "7rem",
-        height: "5rem",
-        justifyContent: "space-between",
-        transition: "transform 650ms ease-out",
-        cursor: "pointer",
-        zIndex: "1500",
-      },
-
-      line: {
-        transition: "all 0.2s ease",
-        background: "linear-gradient(to right, #ff69b4, #c32c7f, #88004e)",
-
-        width: "100%",
-        height: "7px",
-        borderRadius: ".8rem",
-      },
-
       lineTop: {
-        position: "absolute",
-        top: "0",
-        right: "2.9rem",
-        width: "60%",
-
-        transformOrigin: "-10% 150%",
         transform: this.state.open
           ? "rotate(-300deg) translateX(-1rem)"
           : "none",
-        transition: "transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57)",
       },
 
       lineMiddle: {
-        position: "absolute",
-        top: "2rem",
-        transformOrigin: "55% 390%",
-        transition: "transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57)",
         transform: this.state.open
           ? "rotate(-60deg) translateX(.8rem)"
           : "none",
       },
 
       lineBottom: {
-        position: "absolute",
-        right: "-.2rem",
-        bottom: "0rem",
-        width: "60%",
-        transformOrigin: "30% -425%",
         transform: this.state.open
           ? "rotate(-300deg) translateX(1rem)"
           : "none",
-        transition: "transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57)",
       },
     };
     return (
       <>
         <div
-          className="burgermenu-lines"
-          style={styles.container}
+          className="burgermenu-lines-container"
           onClick={
             this.props.onClick
               ? this.props.onClick
@@ -94,9 +52,9 @@ class MenuButton extends React.Component {
                 }
           }
         >
-          <div style={{ ...styles.line, ...styles.lineTop }} />
-          <div style={{ ...styles.line, ...styles.lineMiddle }} />
-          <div style={{ ...styles.line, ...styles.lineBottom }} />
+          <div className="linetop" style={{ ...styles.lineTop }} />
+          <div className="linemiddle" style={{ ...styles.lineMiddle }} />
+          <div className="linebottom" style={{ ...styles.lineBottom }} />
         </div>
       </>
     );
