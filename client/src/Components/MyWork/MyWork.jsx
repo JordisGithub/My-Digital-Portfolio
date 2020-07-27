@@ -71,7 +71,7 @@ export default function MyWork() {
 
             <div className="portfolio-links">
               <a
-                href="https://sustainable-fashion-app.herokuapp.com/"
+                href="https://sustainable-fashion.surge.sh/"
                 className="btn"
                 target="_blank"
                 rel="noopener noreferrer"
