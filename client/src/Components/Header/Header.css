@@ -11,9 +11,8 @@
 
 .intro__img {
   grid-area: img;
-  min-width: 250px;
-
-  position: relative;
+  min-width: 300px;
+  /* position: relative; */
 }
 
 .section__title {
@@ -50,51 +49,11 @@
   padding: 0 2.5vw;
 }
 
-@media screen and (max-width: 800px) {
-  .intro {
-    /* position: relative; */
-    /* border: solid red 2pt; */
-    width: 95%;
-    margin-top: 30px;
-    grid-template-areas:
-      "title"
-      "subtitle"
-      "img";
-    grid-template-columns: 1fr;
-  }
-
-  /* .intro__img {
-    box-shadow: var(--bs);
-    position: unset;
-    width: fit-content;
-  } */
-
-  .section__subtitle--intro {
-    font-weight: 500;
-    display: inline-block;
-    font-size: 18px;
-    text-align: left;
-  }
-
-  .section__title--intro strong {
-    font-size: 30px;
-  }
-}
-
 /* ===================================
 ===================================
 ==========New Code=================
 ===================================
 =================================== */
-
-/* body {
-  background: whitesmoke;
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  --blur: 2px;
-} */
 
 .border {
   box-sizing: border-box;
@@ -124,7 +83,6 @@
   content: " ";
   display: block;
   padding-bottom: 140%;
-  grid-area: img;
 }
 
 .frame {
@@ -141,13 +99,45 @@
   position: absolute;
 }
 
-.image {
-  /* box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.2);
+/* .image {
+  box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.2);
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-position: center center; */
-  box-shadow: var(--bs);
-  position: unset;
-  width: fit-content;
+  background-position: center center;
+} */
+
+@media screen and (max-width: 800px) {
+  .intro {
+    /* position: relative; */
+    /* border: solid red 2pt; */
+    width: 95%;
+    margin-top: 30px;
+    grid-template-areas:
+      "title"
+      "subtitle"
+      "img";
+    grid-template-columns: 1fr;
+  }
+
+  .intro__img {
+    grid-area: img;
+    min-width: 65vw;
+    position: relative;
+    /* margin: auto; */
+  }
+
+  .section__title--intro strong {
+    font-size: 30px;
+  }
+
+  .section__subtitle--intro {
+    max-width: fit-content;
+    max-width: 60vw;
+
+    /* font-weight: 500;
+    display: inline-block;
+    font-size: 18px;
+    text-align: left; */
+  }
 }
