@@ -23,13 +23,21 @@ function Header() {
             ]}
           />
         </div>
-        <img
-          src="https://i.imgur.com/QpGI4yn.jpg"
-          // src="https://i.imgur.com/NWsAAi6.jpg"
-          // src="https://i.imgur.com/1l6jyhv.jpg"
-          alt="Jordi in Brooklyn"
-          className="intro__img"
-        />
+        {/* <div className="border">
+          <div className="frame">
+            <img
+              src="https://i.imgur.com/QpGI4yn.jpg"
+              alt="Jordi in Brooklyn"
+              className="intro__img"
+            />
+          </div>
+        </div> */}
+        <div className="border">
+          <div className="frame">
+            <img className="image" src="https://i.imgur.com/QpGI4yn.jpg"></img>
+          </div>
+        </div>
+        ;
       </section>
     </>
   );

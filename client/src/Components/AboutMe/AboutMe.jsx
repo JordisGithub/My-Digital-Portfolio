@@ -64,7 +64,7 @@ function AboutMe() {
                     <i className="fab fa-instagram"></i>
                   </a>
                 </li>
-                {/* <li>
+                <li>
                   <a
                     href="https://twitter.com/jordip515?lang=en"
                     className="icon-link"
@@ -73,8 +73,8 @@ function AboutMe() {
                   >
                     <i className="fab fa-twitter"></i>
                   </a>
-                </li> */}
-                {/* <li>
+                </li>
+                <li>
                   <a
                     href="https://www.facebook.com/jordania.pereyra"
                     className="icon-link"
@@ -82,7 +82,7 @@ function AboutMe() {
                   >
                     <i className="fab fa-facebook-square"></i>
                   </a>
-                </li> */}
+                </li>
               </ul>
             </div>
           </div>
