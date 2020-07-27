@@ -27,7 +27,7 @@ export default function MyWork() {
               <h1 className="portfolio-item-tagline">
                 sustainability scorecards ratings on your favorite designers.
                 <br />
-                Ycd cup there's an app for that!
+                Yup there's an app for that!
               </h1>
               <div className="portfolio-item-longdescription">
                 Sustainably Chic operates as a marketplace for mid to high
