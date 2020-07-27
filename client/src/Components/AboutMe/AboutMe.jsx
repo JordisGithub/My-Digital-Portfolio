@@ -14,7 +14,11 @@ function AboutMe() {
             </div>
 
             <div className="aboutme-img-container">
-              <img className="aboutme-img" src={Jordi_01} alt="" />
+              <img
+                className="aboutme-img"
+                src="https://i.imgur.com/NWsAAi6.jpg"
+                alt=""
+              />
             </div>
 
             <p>
@@ -50,7 +54,7 @@ function AboutMe() {
                     <i className="fab fa-linkedin"></i>
                   </a>
                 </li>
-                {/* <li>
+                <li>
                   <a
                     href="https://www.instagram.com/jordi_515/"
                     className="icon-link"
@@ -59,7 +63,7 @@ function AboutMe() {
                   >
                     <i className="fab fa-instagram"></i>
                   </a>
-                </li> */}
+                </li>
                 {/* <li>
                   <a
                     href="https://twitter.com/jordip515?lang=en"

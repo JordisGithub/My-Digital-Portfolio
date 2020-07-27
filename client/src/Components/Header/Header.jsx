@@ -1,7 +1,6 @@
 import React from "react";
 import "./Header.css";
 import Typical from "react-typical";
-import Jordi_01 from "../../img/Jordi_01.png";
 
 function Header() {
   return (
@@ -24,7 +23,13 @@ function Header() {
             ]}
           />
         </div>
-        <img src={Jordi_01} alt="Jordi in Brooklyn" className="intro__img" />
+        <img
+          src="https://i.imgur.com/QpGI4yn.jpg"
+          // src="https://i.imgur.com/NWsAAi6.jpg"
+          // src="https://i.imgur.com/1l6jyhv.jpg"
+          alt="Jordi in Brooklyn"
+          className="intro__img"
+        />
       </section>
     </>
   );
