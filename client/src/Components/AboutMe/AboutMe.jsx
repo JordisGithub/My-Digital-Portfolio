@@ -16,7 +16,7 @@ function AboutMe() {
             <div className="aboutme-img-container">
               <img
                 className="aboutme-img"
-                src="https://i.imgur.com/NWsAAi6.jpg"
+                src="https://i.imgur.com/stWD7UN.jpg"
                 alt=""
               />
             </div>
