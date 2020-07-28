@@ -129,12 +129,12 @@
   }
 
   .section__title--intro strong {
-    font-size: 40px;
+    /* font-size: 40px; */
   }
 
   .section__subtitle--intro {
     max-width: fit-content;
-    max-width: 60vw;
+    /* max-width: 60vw; */
 
     font-weight: 500;
     display: inline-block;
