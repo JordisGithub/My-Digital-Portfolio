@@ -65,6 +65,7 @@ class ContactForm extends Component {
                 <option value="">Web/App Development</option>
                 <option value="">Ecommerce</option>
                 <option value="">Marketing Strategy</option>
+                <option value="">Other</option>
               </select>
 
               <label for="subject">Subject:</label>
