@@ -34,7 +34,7 @@ function Header() {
         </div> */}
         <div className="border intro__img">
           <div className="frame">
-            <img className="image" src="https://i.imgur.com/QpGI4yn.jpg"></img>
+            <img className="image" src="https://i.imgur.com/oLEOvKU.jpg"></img>
           </div>
         </div>
         ;
