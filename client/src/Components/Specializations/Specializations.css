@@ -76,7 +76,8 @@
 .specializations-highlight .btn {
   color: black;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 868px) {
   .my-specializations {
     margin-top: -90px;
   }

@@ -54,7 +54,7 @@ function Footer() {
             </li>
             <li class="icon-item">
               <a
-                href="#"
+                href="https://www.facebook.com/jordania.pereyra"
                 className="footer-icon-link"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -64,7 +64,7 @@ function Footer() {
             </li>
             <li class="icon-item">
               <a
-                href="#"
+                href="https://twitter.com/jordip515?lang=en"
                 className="footer-icon-link"
                 target="_blank"
                 rel="noopener noreferrer"
