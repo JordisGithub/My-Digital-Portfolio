@@ -102,15 +102,23 @@
       "social";
   }
 
-  .container {
-    width: 95%;
+  .aboutme-img {
+    margin: auto;
   }
+
+  .about-details p {
+    margin-top: 30px;
+  }
+
+  /* .container {
+    width: 95%;
+  } */
 }
 
 @media (max-width: 768px) {
   .container {
-    width: 90%;
-    margin-top: 40px;
+    /* width: 95%; */
+    /* margin-top: 10px; */
   }
   .about-heading h1 {
     font-size: 4em;
@@ -123,17 +131,17 @@
   }
 
   .aboutme-img-container {
-    width: 60%;
-    margin: auto;
+    /* width: 60%; */
   }
-  .aboutme-img {
+  /* .aboutme-img {
+    margin: auto;
     grid-area: img;
     border-image-outset: unset;
     border: 2pt solid;
-  }
+  } */
 
-  .about-details {
-    /* width: 75%; */
+  /* .about-details {
+   
     font-size: 1.3rem;
     display: grid;
     grid-template-columns: 1fr;
@@ -143,11 +151,11 @@
       "img"
       "description"
       "social ";
-  }
+  } */
 
   .about-details p {
-    font-size: 0.8em;
-    width: 95%;
+    /* font-size: 0.8em; */
+    /* width: 95%; */
     margin: 10px auto 0;
   }
 
@@ -158,6 +166,6 @@
   }
 
   .social-media i {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
