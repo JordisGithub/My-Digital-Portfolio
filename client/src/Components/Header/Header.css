@@ -124,20 +124,28 @@
     grid-area: img;
     min-width: 65vw;
     position: relative;
+    width: 100%;
     /* margin: auto; */
   }
 
   .section__title--intro strong {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .section__subtitle--intro {
     max-width: fit-content;
     max-width: 60vw;
 
-    /* font-weight: 500;
+    font-weight: 500;
     display: inline-block;
     font-size: 18px;
-    text-align: left; */
+    text-align: left;
+  }
+
+  .image {
+    height: 100%;
+    padding-top: 10px;
+
+    margin: auto;
   }
 }

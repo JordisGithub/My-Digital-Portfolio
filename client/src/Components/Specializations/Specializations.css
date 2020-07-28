@@ -84,6 +84,7 @@
 
   .section__title--services {
     font-size: 6.2vw;
+    color: black;
   }
 
   .service p {
@@ -91,6 +92,7 @@
   }
 
   .service h3 {
+    color: black;
     font-size: 3.8vw;
   }
 }
