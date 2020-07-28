@@ -1,5 +1,8 @@
 // import React from "react";
 import React, { Component } from "react";
+
+// import React from 'react';
+import ReactDOM from "react-dom";
 import "./Experience.css";
 import ShowMoreText from "react-show-more-text";
 
@@ -159,17 +162,29 @@ class Experience extends Component {
               <div class="timeline-content">
                 <h3>(Artistic Typography) 2003 - 2005 </h3>
                 <span>Graphic Design and Production</span>
-                <p>
-                  Prepare final press-ready files based on supplied
-                  specifications for several types of printing. Prepared final
-                  press-ready files based on supplied specifications for several
-                  types of printing. Made various formats of supplied artwork
-                  production-ready and resolve any artwork issues that arise
-                  during production. Provided image retouching, clipping paths
-                  and additional image manipulation. Prepare images for online
-                  and mobile applications. Troubleshoot problems as they arise
-                  with both the creative team and the printer
-                </p>
+
+                <ShowMoreText
+                  /* Default options */
+                  lines={3}
+                  more="Show more"
+                  less="Show less"
+                  anchorClass="timeline-description-paragraph"
+                  onClick={this.executeOnClick}
+                  expanded={false}
+                  width={280}
+                >
+                  <p>
+                    Prepare final press-ready files based on supplied
+                    specifications for several types of printing. Prepared final
+                    press-ready files based on supplied specifications for
+                    several types of printing. Made various formats of supplied
+                    artwork production-ready and resolve any artwork issues that
+                    arise during production. Provided image retouching, clipping
+                    paths and additional image manipulation. Prepare images for
+                    online and mobile applications. Troubleshoot problems as
+                    they arise with both the creative team and the printer
+                  </p>
+                </ShowMoreText>
               </div>
             </div>
           </div>

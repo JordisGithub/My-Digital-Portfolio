@@ -87,6 +87,12 @@
   line-height: 1.5em;
   word-spacing: 1px;
   color: #888;
+  text-transform: lowercase;
+}
+
+.timeline-description-paragraph {
+  text-transform: lowercase;
+  /* color: red; */
 }
 
 .timeline h1 {
