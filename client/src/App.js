@@ -14,6 +14,13 @@ import MenuItems from './Components/Menu/MenuItems'
 import MenuButton from './Components/Menu/MenuButton'
 import Menu from './Components/Menu/Menu'
 
+// import Contact from './Components/Contact/Contact'
+// import {
+//   app,
+//   port,
+//   data,
+//   mailoptions
+// } from './Services/api-helper.jsx';
 
 
 class App extends React.Component {
@@ -54,6 +61,7 @@ class App extends React.Component {
 
         <Header />
         <TheStack />
+        {/* <Contact /> */}
         <Specializations />
         <AboutMe />
         <MyWork />

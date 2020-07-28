@@ -1,14 +1,4 @@
 import React from "react";
-// import { render } from "react-dom";
-// import {
-//   Link,
-//   DirectLink,
-//   Element,
-//   Events,
-//   animateScroll as scroll,
-//   scrollSpy,
-//   scroller,
-// } from "react-scroll";
 import "./Footer.css";
 
 function Footer() {
@@ -80,64 +70,3 @@ function Footer() {
 }
 
 export default Footer;
-
-{
-  /* <div className="social-media">
-  <ul className="about-nav-list">
-    <li>
-      <a
-        href="https://github.com/JordisGithub"
-        className="icon-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-github-square"></i>
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://www.linkedin.com/in/jordania-pereyra/"
-        className="icon-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-linkedin"></i>
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://www.instagram.com/jordi_515/"
-        className="icon-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-instagram"></i>
-      </a>
-    </li> */
-}
-{
-  /* <li>
-                  <a
-                    href="https://twitter.com/jordip515?lang=en"
-                    className="icon-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                </li> */
-}
-{
-  /* 
-                <li>
-                  <a
-                    href="https://www.facebook.com/jordania.pereyra"
-                    className="icon-link"
-                    target="_blank"
-                  >
-                    <i className="fab fa-facebook-square"></i>
-                  </a>
-                </li> */
-}
-//   </ul>
-// </div>;
