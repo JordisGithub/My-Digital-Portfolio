@@ -33,6 +33,7 @@ class Experience extends Component {
                   width={280}
                 >
                   <span>Freelance Web Development</span>
+                  <br></br>
                   <p>
                     Work with clients to identify software solutions to business
                     challenges. Perform full-stack website launches for clients
@@ -56,9 +57,8 @@ class Experience extends Component {
                   expanded={false}
                   width={280}
                 >
-                  <span>
-                    SOFTWARE ENGINEERING FELLOW, General Assembly, New York, NY.
-                  </span>
+                  <span>SOFTWARE ENGINEERING FELLOW, General Assembly.</span>
+                  <br></br>
                   <p>
                     Participated in 500+ hours of applied training in software
                     engineering and web development concepts focusing on
@@ -83,10 +83,8 @@ class Experience extends Component {
                   expanded={false}
                   width={280}
                 >
-                  <span>
-                    HEC BUSINESS CHALLENGE WITH DISNEY PARIS, Jouy-eJosas,
-                    France
-                  </span>
+                  <span>HEC BUSINESS CHALLENGE WITH DISNEY PARIS </span>
+                  <br></br>
                   <p>
                     Winner of the Disney Fashion business challenge. Developing
                     a unique retail strategy proposal for the Disney Fashion
@@ -105,7 +103,8 @@ class Experience extends Component {
                   expanded={false}
                   width={280}
                 >
-                  <span>IXL CONSULTING INNOVATION CHALLENGE, Boston, USA</span>
+                  <span>IXL CONSULTING INNOVATION CHALLENGE</span>
+                  <br></br>
                   <p>
                     Winner of the IXL Innovation Olympics, the world’s largest
                     business innovation consulting competition. Consulted a
@@ -134,7 +133,8 @@ class Experience extends Component {
                   expanded={false}
                   width={280}
                 >
-                  <span>BUSINESS MANAGER HSBC Private Bank, New York, NY.</span>
+                  <span>BUSINESS MANAGER.</span>
+                  <br></br>
                   <p>
                     Developed, implemented, and maintained a sales tracking
                     database and related analytical reporting protocols.
@@ -159,9 +159,8 @@ class Experience extends Component {
                   expanded={false}
                   width={280}
                 >
-                  <span>
-                    Administrative Analyst HSBC Private Bank, New York, NY.
-                  </span>
+                  <span>Administrative Analyst</span>
+                  <br></br>
                   <p>
                     Served as part of the product development committees for
                     private equity, aircraft, art, hedge funds, intellectual
@@ -186,7 +185,8 @@ class Experience extends Component {
                   expanded={false}
                   width={280}
                 >
-                  <span>Branch Relationship Banker HSBC, New York.</span>
+                  <span>Branch Relationship Banker.</span>
+                  <br></br>
                   <p>
                     Recognized for top sales performance. Developed a sales plan
                     for each relationship to provide an array of services:
@@ -213,7 +213,8 @@ class Experience extends Component {
                   expanded={false}
                   width={280}
                 >
-                  <span>Relationship Manager, Mount Vernon, NY</span>
+                  <span>Relationship Manager</span>
+                  <br></br>
                   <p>
                     Acquired and deepened customer relationships by proactively
                     meeting with customers to discover their financial needs and
@@ -240,6 +241,7 @@ class Experience extends Component {
                   width={280}
                 >
                   <span>Quality Assurance Manager</span>
+                  <br></br>
                   <p>
                     Tracked progress of individual associate; recommended
                     performance action plans for associates who are not meeting
@@ -268,6 +270,7 @@ class Experience extends Component {
                   width={280}
                 >
                   <span>Graphic Design and Production</span>
+                  <br></br>
                   <p>
                     Prepare final press-ready files based on supplied
                     specifications for several types of printing. Prepared final

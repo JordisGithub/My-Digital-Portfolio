@@ -163,6 +163,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  .timeline-content {
+    width: 100%;
+    /* padding: 0 15px;
+    color: #666;
+    background-color: whitesmoke; */
+  }
+
   .experience-container:before {
     left: 8px;
     width: 2px;
