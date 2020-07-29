@@ -16,6 +16,8 @@ import MenuButton from './Components/Menu/MenuButton'
 import Menu from './Components/Menu/Menu'
 
 import Contact from './Components/Contact/Contact'
+import Accordion from './Components/Specializations/Accordion'
+
 // import {
 //   app,
 //   port,
@@ -62,6 +64,7 @@ class App extends React.Component {
 
         <Header />
         <TheStack />
+        {/* <Accordion /> */}
         {/* <Contact /> */}
         <Specializations />
         <AboutMe />
