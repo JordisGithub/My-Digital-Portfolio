@@ -15,7 +15,7 @@ import MenuItems from './Components/Menu/MenuItems'
 import MenuButton from './Components/Menu/MenuButton'
 import Menu from './Components/Menu/Menu'
 
-// import Contact from './Components/Contact/Contact'
+import Contact from './Components/Contact/Contact'
 // import {
 //   app,
 //   port,
@@ -62,7 +62,7 @@ class App extends React.Component {
 
         <Header />
         <TheStack />
-        {/* <Contact /> */}
+        <Contact />
         <Specializations />
         <AboutMe />
         <MyWork />
