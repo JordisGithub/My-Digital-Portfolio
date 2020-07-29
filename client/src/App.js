@@ -62,7 +62,7 @@ class App extends React.Component {
 
         <Header />
         <TheStack />
-        <Contact />
+        {/* <Contact /> */}
         <Specializations />
         <AboutMe />
         <MyWork />
