@@ -4,7 +4,7 @@ import "./Specializations.css";
 import ReactDOM from "react-dom";
 import ShowMoreText from "react-show-more-text";
 // import React from "react";
-import "react-accessible-accordion/dist/fancy-example.css";
+// import "react-accessible-accordion/dist/fancy-example.css";
 
 import {
   Accordion,
@@ -24,17 +24,21 @@ class Specializations extends Component {
           <div className="specializations-highlight">
             <h2 className="section__title--services">Specializations</h2>
 
-            <div className="service">
-              <h3>Engineering</h3>
-              <div className="services">
+            <div className="services">
+              {/* =========================================================
+            ======================Specialization 1===================
+            ========================================================== */}
+
+              <div className="service">
+                <h3>Engineering</h3>
                 <ShowMoreText
                   lines={8}
                   more="Show more"
                   less="Show less"
-                  anchorClass="timeline-description-paragraph"
+                  anchorClass="service-paragraph"
                   onClick={this.executeOnClick}
                   expanded={false}
-                  width={280}
+                  width={430}
                 >
                   <p>
                     In this digital era, not having a mobile app on popular
@@ -51,17 +55,20 @@ class Specializations extends Component {
                 </ShowMoreText>
               </div>
 
+              {/* =========================================================
+            ======================Specialization 2===================
+            ========================================================== */}
+
               <div className="service">
                 <h3>Business</h3>
-
                 <ShowMoreText
                   lines={8}
-                  more="Show more"
+                  more="Read more"
                   less="Show less"
-                  anchorClass="timeline-description-paragraph"
+                  anchorClass="service-paragraph"
                   onClick={this.executeOnClick}
                   expanded={false}
-                  width={280}
+                  width={430}
                 >
                   <p>
                     Nearly every retail and wholesale business is jumping aboard
@@ -78,16 +85,20 @@ class Specializations extends Component {
                 </ShowMoreText>
               </div>
 
+              {/* =========================================================
+            ======================Specialization 3===================
+            ========================================================== */}
+
               <div className="service">
                 <h3>Marketing</h3>
                 <ShowMoreText
                   lines={8}
                   more="Show more"
                   less="Show less"
-                  anchorClass="timeline-description-paragraph"
+                  anchorClass="service-paragraph"
                   onClick={this.executeOnClick}
                   expanded={false}
-                  width={280}
+                  width={430}
                 >
                   <p>
                     A marketer who has a business mindset and also knows how to
@@ -107,7 +118,23 @@ class Specializations extends Component {
                     seminar, etc.
                   </p>
                 </ShowMoreText>
-                {/* is the
+              </div>
+            </div>
+            <a href="#work" className="btn">
+              Recent Work
+            </a>
+          </div>
+        </section>
+      </>
+    );
+  }
+}
+
+export default Specializations;
+// ReactDOM.render(<Example />, document.querySelector("[data-mount]"));
+
+{
+  /* is the
                 systematic process of 
                 
                  Data decision making to reduce the
@@ -131,8 +158,10 @@ class Specializations extends Component {
                   decisions. provide results that aid in product development,
                   merchants, sales, marketing. Price and price elasticity,
                   performance by region.
-                </p> */}
-                {/* <p>
+                </p> */
+}
+{
+  /* <p>
                   Producing online traffic via social media, SEO, and even paid
                   search is a great start for a marketing strategy, but
                   certainly not a guarantee that visitors will be performing the
@@ -144,19 +173,11 @@ class Specializations extends Component {
                 your company site who take a desired action — subscribing to a
                 mailing list, filling out a personal information form,
                 registering for a seminar, etc.
-              </p> */}
-              </div>
-            </div>
-
-            <a href="#work" className="btn">
-              My Work
-            </a>
-          </div>
-        </section>
-      </>
-    );
-  }
+              </p> */
 }
-
-export default Specializations;
-// ReactDOM.render(<Example />, document.querySelector("[data-mount]"));
+{
+  /* </div> */
+}
+{
+  /* </div> */
+}

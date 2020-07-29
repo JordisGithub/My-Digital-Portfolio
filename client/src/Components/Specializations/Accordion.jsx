@@ -9,7 +9,7 @@ import {
 } from "react-accessible-accordion";
 
 // Demo styles, see 'Styles' section below for some notes on use.
-import "react-accessible-accordion/dist/fancy-example.css";
+// import "react-accessible-accordion/dist/fancy-example.css";
 
 export default function Example() {
   return (

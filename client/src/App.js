@@ -64,7 +64,7 @@ class App extends React.Component {
 
         <Header />
         <TheStack />
-        <Accordion />
+        {/* <Accordion /> */}
         {/* <Contact /> */}
         <Specializations />
         <AboutMe />

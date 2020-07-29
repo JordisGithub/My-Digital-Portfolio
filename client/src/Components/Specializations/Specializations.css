@@ -1,83 +1,110 @@
-.my-specializations {
-  /* background-color: var(--clr-dark); */
-  /* background-color: #ff69b4;
-  background-color: #c32c7f;*/
+/* .my-specializations {
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-image: url("https://i.imgur.com/EptIkkq.jpg"); */
   background-image: url("https://i.imgur.com/E2YBaaQ.jpg");
-  /* background-color: url("https://i.imgur.com/vsc3kJR.jpg"); */
-  text-align: center;
   opacity: 0.9;
 }
 
 .specializations-highlight {
   width: 85vw;
   background-color: whitesmoke;
-  /* background: linear-gradient(to top, #ff69b4, #c32c7f, #88004e); */
   opacity: 0.92;
   margin: auto;
   border-style: ridge;
   border-width: 3px;
   padding: 1em;
-}
+} */
 
-.section__title--services {
-  font-size: 3.7vw;
+/* ====================================
+====section title=====================
+===================================== */
+/* .section__title--services {
+  text-align: center;
+  font-size: 48px;
   text-transform: uppercase;
   padding: 25px 0;
+} */
 
-  /* color: var(--clr-dark); */
-  /* color: #c32c7f; */
-}
-
-.section__title--services::after {
-  /* content: ""; */
-  display: block;
-  margin: 0.5em auto 1em;
-}
-
-.services {
-  /* border: red 2pt solid; */
+/* ===========================================================
+==== grid area service tilte and paragraph=====================
+============================================================ */
+/* .services {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-gap: 20pt;
 
-  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr;
+  grid-auto-flow: column;
+  border: #88004e 1pt solid;
 }
 
-.service {
-  border: #88004e 2pt solid;
-  /* width: 95%; */
-  /* margin: 0 auto; */
+.services h3 {
+  background: linear-gradient(to top, #ff69b4, #c32c7f, #88004e);
+  padding: 20px;
+  font-size: 26px;
+  border: #88004e 1pt solid;
+  text-align: center;
+  align-items: center;
+ 
+  display: block;
+} */
+
+/* ====================================
+====paragraph outside expanded view=======
+===================================== */
+
+/* ====================================
+====paragraph inside expanded view=======
+===================================== */
+/* .service {
+  border-left: #88004e 1pt solid;
+  border-right: #88004e 1pt solid;
+  border-bottom: #88004e 1pt solid;
+  padding-bottom: 20px;
+
+  font-size: 1vw;
+  text-align: justify;
+  padding: 10px;
+ 
 }
 
 .service p {
-  padding: 0 20px;
-}
+  padding: 10px;
+} */
 
-.service h3 {
-  background: linear-gradient(to top, #ff69b4, #c32c7f, #88004e);
-  padding: 20px 0;
-  margin-bottom: 20px;
-  /* text-decoration: underline; */
-  /* color: white; */
-  font-size: 1.8vw;
-}
+/* ====================================
+====read more/less link=====================
+===================================== */
 
-.specializations-highlight .btn {
-  background-color: ##ff69b4;
+/* .service-paragraph {
+  color: #88004e;
+  padding-left: 10px;
+} */
+
+/* ====================================
+====My Work button=====================
+===================================== */
+
+/* .specializations-highlight .btn {
+  background-color: #c32c7f;
   color: whitesmoke;
   margin-bottom: 40px;
   margin-top: 25px;
   padding: 10px 20px;
+  display: block;
+  width: 150px;
+  margin: 25px auto 10px;
 }
 
-.specializations-highlight .btn {
+.specializations-highlight a {
+  align-items: center;
   color: black;
-}
+} */
 
-@media (max-width: 868px) {
+/* ====================================
+====Media QUery=====================
+===================================== */
+
+/* @media (max-width: 868px) {
   .my-specializations {
     margin-top: -90px;
   }
@@ -101,109 +128,151 @@
     color: black;
     font-size: 3.8vw;
   }
-}
+} */
 
 /* ////////////////////////////////
 ////////////New Code////////////
 /////////////////////////////// */
 
-.accordion-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  background-color: #fff;
-  max-width: 30rem;
-  border-radius: 0.4rem;
-  overflow: hidden;
-  /* box-shadow:
-    0 0 0.8rem 0.1rem rgba(darken($cAccent, 20%), 0.06),
-    0 20px 30px -10px rgba(darken($cAccent, 20%), 0.2); */
-
-  /* &__item{
-    &+&{
-      border-top: 1px solid $cLightGray;
-    }
-  } */
+.my-specializations {
+  /* background-color: var(--clr-dark); */
+  /* background-color: #ff69b4;
+  background-color: #c32c7f;*/
+  /* background-image: url("https://i.imgur.com/EptIkkq.jpg"); */
+  /* background-color: url("https://i.imgur.com/vsc3kJR.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://i.imgur.com/E2YBaaQ.jpg");
+  text-align: center;
+  opacity: 0.9;
 }
 
-.accordion-item {
-  /* $self: &;
+.specializations-highlight {
+  /* background: linear-gradient(to top, #ff69b4, #c32c7f, #88004e); */
+  width: 85vw;
+  background-color: whitesmoke;
+  opacity: 0.92;
+  margin: auto;
+  border-style: ridge;
+  border-width: 3px;
+  padding: 1em;
+}
 
-  &--opened{    
-    #{ $self }__icon{
-      transform: rotate(180deg);
-    }
-        
-    #{ $self }__inner{
-      max-height: 100rem;
-      transition-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
-      transition-duration: 0.5s;
-      transition-property: max-height;
-    }
-    
-    #{ $self }__content{
-      opacity: 1;
-      transform: translateY(0);
-      transition-delay: 0.2s;
-      transition-timing-function: ease-in-out;
-      transition-duration: 0.2s;
-      transition-property: opacity, transform;
-    }
+/* ====================================
+====section title=====================
+===================================== */
+
+.section__title--services {
+  /* color: var(--clr-dark); */
+  /* color: #c32c7f; */
+  font-size: 3.7vw;
+  text-transform: uppercase;
+  padding: 25px 0;
+}
+
+.section__title--services::after {
+  /* content: ""; */
+  display: block;
+  margin: 0.5em auto 1em;
+}
+/* ===========================================================
+==== grid area service tilte and paragraph=====================
+============================================================ */
+
+.services {
+  /* border: red 9pt solid; */
+  /* grid-gap: 20pt; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  margin: auto;
+}
+
+.service h3 {
+  /* border: pink 2pt solid; */
+  background: linear-gradient(to top, #ff69b4, #c32c7f, #88004e);
+  padding: 20px 0;
+  margin-bottom: 20px;
+  /* text-decoration: underline; */
+  /* color: white; */
+  font-size: 1.8vw;
+}
+
+/* ====================================
+====paragraph description=======
+===================================== */
+.service {
+  /* width: 95%; */
+  /* margin: 0 auto; */
+  border: #88004e 2pt solid;
+  /* border: yellow 2pt solid; */
+  /* font-size: 1.1vw; */
+}
+
+.service p {
+  /* background-color: aqua; */
+  padding: 0 10px;
+  /* padding: 15px; */
+}
+
+/* ====================================
+====read more/less link=====================
+===================================== */
+
+.service-paragraph {
+  padding: 0 20px;
+  color: #88004e;
+  padding-left: 20px;
+}
+
+/* ====================================
+====My Work button=====================
+===================================== */
+
+.specializations-highlight .btn {
+  background-color: #c32c7f;
+  color: whitesmoke;
+  margin-bottom: 40px;
+  margin-top: 25px;
+  padding: 10px 20px;
+}
+
+.specializations-highlight .btn {
+  color: black;
+}
+
+/* ====================================
+====Media QUery=====================
+===================================== */
+
+@media (max-width: 868px) {
+  .my-specializations {
+    margin-top: -90px;
   }
 
-  &__line{
-    display: block;
-    padding: 0.8rem 1.2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    z-index: 2;
-    position: relative;
+  .services {
+    /* display: flex; */
+    /* flex-direction: column; */
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0;
   }
-  
-  &__title{
-    font-size: 1.6rem;
-    margin: 0;
-    font-weight: 700;
-    color: $cBlack;
+
+  .section__title--services {
+    font-size: 6.2vw;
+    color: black;
   }
-  
-  &__icon{
-    width: 1.2rem;
-    height: 1.2rem;
-    transition: transform 0.3s ease-in-out;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAQAAABIkb+zAAABGklEQVR4Ae3RAcZCQRiF4buDfwshBGi+2UQgcIGAVtpSIuS/KyilG+UTcbk6zIH3GQBm3mM6AAAAAAAAAACA+eqf/yZBXcV/2XeCVPYx1FXj/FjGUMd45AQp/1HHGGLZNL+e61jHnKDmv8652YT1IvPfE2LX/Sh27/ycsF60yT/lk58JYn6eU4MJccjnlAmZ/33i0OAH4jg9Qcw/5g9YJpS+m6n0xvzpCfVe+nn59S7kGyYo+YYJWz3fO+E2PaFs9XzPhMy/6fmWCXq+YUJs9HzrhLh+JsQmrnq+bYKeb52g53snXPR88wQ93z9Bz/dP0PP9E/R89wQ93zpBz7dO0POtE/R86wQ93zpBzzdP+MoHAAAAAAAAAADAExTnTW20AtjhAAAAAElFTkSuQmCC);
-    opacity: 0.6;
+
+  .service {
+    /* width: 95%; */
+    /* margin: 0 auto; */
+    /* border: #88004e 2pt solid; */
+    /* border: yellow 2pt solid; */
+    /* font-size: 3vw; */
+    /* margin-top: 120px; */
   }
-  
-  &__inner{
-    max-height: 0;
-    overflow: hidden;
-    text-transform: cubic-bezier(0.95, 0.05, 0.795, 0.035);
-    transition-duration: 0.5s;
-    transition-property: max-height;
-    z-index: 1;
-    position: relative;
+
+  .service h3 {
+    color: black;
+    font-size: 3.8vw;
   }
-  
-  &__content{
-    opacity: 0;
-    transform: translateY(-1rem);
-    transition-timing-function: linear, ease;
-    transition-duration: 0.1s;
-    transition-property: opacity, transform;
-    transition-delay: 0.5s;
-    padding: 0 1.2rem 1.2rem;
-  }
-  
-  &__paragraph{
-    margin: 0;
-    font-size: 1rem;
-    color: $cGray;
-    font-weight: 300;
-    line-height: 1.3;
-  } */
 }

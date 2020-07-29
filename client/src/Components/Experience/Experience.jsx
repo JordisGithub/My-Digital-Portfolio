@@ -5,6 +5,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./Experience.css";
 import ShowMoreText from "react-show-more-text";
+import "react-accessible-accordion/dist/fancy-example.css";
 
 class Experience extends Component {
   executeOnClick(isExpanded) {
