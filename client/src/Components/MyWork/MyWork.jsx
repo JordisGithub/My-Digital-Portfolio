@@ -88,6 +88,76 @@ export default function MyWork() {
             </div> */}
           {/* </div> */}
 
+          {/* Portfolio item 3 */}
+          <div className="portfolio-item">
+            <div className="portfolio-item-title">Restaurant Website</div>
+
+            <div className="porfolioitem-image-container">
+              <img
+                src="https://i.imgur.com/1e7OOK6.png"
+                alt=""
+                className="portfolio__img"
+              />
+            </div>
+
+            <div className="portfolio-description">
+              <h1 className="portfolio-item-tagline">
+                Beautifully Built Restaurant Progressive Web Appp with
+                minimalist design.
+              </h1>
+              <div className="portfolio-item-longdescription">
+                This restaurant website was built to highlight how to
+                effectively improve the business's outreach, build a larger
+                customer base and a solid brand image. With Search Engine
+                optimization in mind features to showcase the dining experience
+                included are: Restaurant information, Food and drinks menu,
+                Clear Contact and Visiting Information, A delivery map An “about
+                us” page, A gallery of pictures to show off your foods and
+                drinks online ordering, menu pictures, gift card sales, customer
+                testimonials and social media integration.
+              </div>
+            </div>
+
+            <div className="portfolio-techused">
+              <h6>TECHNOLOGIES USED</h6>
+              <div className="techused-details">
+                <p>React</p>
+                <p>Rails</p>
+                <p>JSX</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+              </div>
+            </div>
+
+            <div className="portfolio-dependencies">
+              <h6>Dependencies</h6>
+              <div className="dependencies-details">
+                <p>React</p>
+                <p>Axios</p>
+                <p>react-router-dom</p>
+              </div>
+            </div>
+
+            <div className="portfolio-links">
+              <a
+                href="https://chikalicious.surge.sh/"
+                className="btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                See Live Site
+              </a>
+              <a
+                href="https://github.com/JordisGithub/chikalicious"
+                className="btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                See Code
+              </a>
+            </div>
+          </div>
+
           {/* Portfolio item 2 */}
           <div className="portfolio-item">
             <div className="portfolio-item-title">
@@ -159,76 +229,6 @@ export default function MyWork() {
               </a>
               <a
                 href="https://github.com/JordisGithub/supernova-gems"
-                className="btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                See Code
-              </a>
-            </div>
-          </div>
-
-          {/* Portfolio item 3 */}
-          <div className="portfolio-item">
-            <div className="portfolio-item-title">Restaurant Website</div>
-
-            <div className="porfolioitem-image-container">
-              <img
-                src="https://i.imgur.com/1e7OOK6.png"
-                alt=""
-                className="portfolio__img"
-              />
-            </div>
-
-            <div className="portfolio-description">
-              <h1 className="portfolio-item-tagline">
-                Beautifully Built Restaurant Progressive Web Appp with
-                minimalist design.
-              </h1>
-              <div className="portfolio-item-longdescription">
-                This restaurant website was built to highlight how to
-                effectively improve the business's outreach, build a larger
-                customer base and a solid brand image. With Search Engine
-                optimization in mind features to showcase the dining experience
-                included are: Restaurant information, Food and drinks menu,
-                Clear Contact and Visiting Information, A delivery map An “about
-                us” page, A gallery of pictures to show off your foods and
-                drinks online ordering, menu pictures, gift card sales, customer
-                testimonials and social media integration.
-              </div>
-            </div>
-
-            <div className="portfolio-techused">
-              <h6>TECHNOLOGIES USED</h6>
-              <div className="techused-details">
-                <p>React</p>
-                <p>Rails</p>
-                <p>JSX</p>
-                <p>CSS</p>
-                <p>Javascript</p>
-              </div>
-            </div>
-
-            <div className="portfolio-dependencies">
-              <h6>Dependencies</h6>
-              <div className="dependencies-details">
-                <p>React</p>
-                <p>Axios</p>
-                <p>react-router-dom</p>
-              </div>
-            </div>
-
-            <div className="portfolio-links">
-              <a
-                href="https://chikalicious.surge.sh/"
-                className="btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                See Live Site
-              </a>
-              <a
-                href="https://github.com/JordisGithub/chikalicious"
                 className="btn"
                 target="_blank"
                 rel="noopener noreferrer"
