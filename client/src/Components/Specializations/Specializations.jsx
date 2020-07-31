@@ -38,7 +38,7 @@ class Specializations extends Component {
                   anchorClass="service-paragraph"
                   onClick={this.executeOnClick}
                   expanded={false}
-                  width={430}
+                  // width={530}
                 >
                   <p>
                     In this digital era, not having a mobile app on popular
@@ -68,7 +68,7 @@ class Specializations extends Component {
                   anchorClass="service-paragraph"
                   onClick={this.executeOnClick}
                   expanded={false}
-                  width={430}
+                  // width={530}
                 >
                   <p>
                     Nearly every retail and wholesale business is jumping aboard
@@ -98,7 +98,7 @@ class Specializations extends Component {
                   anchorClass="service-paragraph"
                   onClick={this.executeOnClick}
                   expanded={false}
-                  width={430}
+                  // width={530}
                 >
                   <p>
                     A marketer who has a business mindset and also knows how to
