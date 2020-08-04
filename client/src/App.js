@@ -63,7 +63,6 @@ class App extends React.Component {
         <MenuButton open={this.state.menuOpen} onClick={() => this.handleMenuClick()} />
 
 
-        <Scroll showBelow={250} />
         <Header />
         <TheStack />
         {/* <Accordion /> */}
@@ -73,6 +72,7 @@ class App extends React.Component {
         <MyWork />
         <Experience />
         <ContactForm />
+        <Scroll showBelow={250} />
 
         <Footer />
       </>
