@@ -92,21 +92,10 @@
 
 @media screen and (max-width: 800px) {
   .up {
-    position: absolute;
-    width: 4rem;
-    height: 4rem;
-    background-color: #eee;
-    top: -2.5rem;
-    right: 2.5rem;
-    border-radius: 100%;
-    display: flex;
+    width: 5rem;
+    height: 5rem;
+    right: 5rem;
     animation: pulse 2s infinite;
     cursor: pointer;
-  }
-
-  .up i {
-    color: #16162d;
-    font-size: 2rem;
-    margin: auto;
   }
 }

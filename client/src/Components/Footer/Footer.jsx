@@ -5,9 +5,9 @@ function Footer() {
   return (
     <>
       <footer className="copyright">
-        <div className="up" id="up">
+        {/* <div className="up" id="up">
           <i className="fas fa-chevron-up"></i>
-        </div>
+        </div> */}
         <p>&copy; 2020 Jordania Pereyra</p>
 
         <section>

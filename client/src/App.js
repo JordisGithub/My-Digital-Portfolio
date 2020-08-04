@@ -10,6 +10,7 @@ import MyWork from './Components/MyWork/MyWork'
 import Experience from './Components/Experience/Experience'
 import ContactForm from './Components/ContactForm/ContactForm'
 import Footer from './Components/Footer/Footer'
+import Scroll from './Components/Footer/Scroll'
 
 import MenuItems from './Components/Menu/MenuItems'
 import MenuButton from './Components/Menu/MenuButton'
@@ -62,6 +63,7 @@ class App extends React.Component {
         <MenuButton open={this.state.menuOpen} onClick={() => this.handleMenuClick()} />
 
 
+        <Scroll showBelow={250} />
         <Header />
         <TheStack />
         {/* <Accordion /> */}
