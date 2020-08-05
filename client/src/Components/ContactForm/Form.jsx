@@ -1,7 +1,84 @@
 import React, { Component } from "react";
 import "./Form.css";
+import axios from "axios";
 
 export default class Form extends Component {
+  state = {
+    name: "",
+    email: "",
+    services: "",
+    message: "",
+    sent: false,
+  };
+
+  //handle inputs
+  handleName = (e) => {
+    this.setState({
+      name: e.target.value,
+    });
+  };
+
+  handleEmail = (e) => {
+    this.setState({
+      email: e.target.value,
+    });
+  };
+
+  handleServices = (e) => {
+    this.setState({
+      services: e.target.value,
+    });
+  };
+
+  handleMessage = (e) => {
+    this.setState({
+      message: e.target.value,
+    });
+  };
+
+  // end of handle inputs
+
+  formSubmit = (e) => {
+    e.preventDefault();
+
+    let data = {
+      name: this.state.name,
+      email: this.state.email,
+      services: this.state.services,
+      message: this.state.message,
+    };
+
+    axios
+      .post("/api/forms", data)
+      .then((res) => {
+        this.setState(
+          {
+            sent: true,
+          },
+          this.resetForm()
+        );
+      })
+      .catch(() => {
+        console.log("message not sent");
+      }, 3000);
+  };
+
+  //resetting initial data
+  resetForm = () => {
+    this.setState({
+      name: "",
+      email: "",
+      services: "",
+      message: "",
+    });
+
+    setTimeout(() => {
+      this.setState({
+        sent: false,
+      });
+    });
+  };
+
   render() {
     return (
       <>
@@ -22,6 +99,8 @@ export default class Form extends Component {
                   name="name"
                   className="name"
                   placeholder="your name..."
+                  value={this.state.name}
+                  onChange={this.handleName}
                 />
               </div>
               {/* ///////////////////////// */}
@@ -38,6 +117,8 @@ export default class Form extends Component {
                   name="email"
                   className="name"
                   placeholder="Enter your email..."
+                  value={this.state.email}
+                  onChange={this.handleEmail}
                 />
               </div>
               {/* ///////////////////////// */}
@@ -49,7 +130,12 @@ export default class Form extends Component {
               {/* ///////////////////////// */}
               <div className="singleitem">
                 <label htmlFor="services">Services</label>
-                <select name="services" id="service">
+                <select
+                  name="services"
+                  id="services"
+                  value={this.state.services}
+                  onChange={this.handleServices}
+                >
                   <option value="">Web/App Design</option>
                   <option value="">Web/App Development</option>
                   <option value="">Ecommerce</option>
@@ -72,6 +158,8 @@ export default class Form extends Component {
                   cols="30"
                   rows="10"
                   placeholder="Your Message..."
+                  value={this.state.message}
+                  onChange={this.handleMessage}
                 />
               </div>
               {/* ///////////////////////// */}
