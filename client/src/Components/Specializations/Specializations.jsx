@@ -6,12 +6,12 @@ import ShowMoreText from "react-show-more-text";
 // import React from "react";
 // import "react-accessible-accordion/dist/fancy-example.css";
 
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemTitle,
-  AccordionItemBody,
-} from "react-accessible-accordion";
+// import {
+//   Accordion,
+//   AccordionItem,
+//   AccordionItemTitle,
+//   AccordionItemBody,
+// } from "react-accessible-accordion";
 
 class Specializations extends Component {
   executeOnClick(isExpanded) {
@@ -63,7 +63,7 @@ class Specializations extends Component {
                 <h3>Business</h3>
                 <ShowMoreText
                   lines={8}
-                  more="Read more"
+                  more="Show more"
                   less="Show less"
                   anchorClass="service-paragraph"
                   onClick={this.executeOnClick}
