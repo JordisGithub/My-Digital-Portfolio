@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 // import React, { useState, useRef } from 'react';
 import MenuItems from './Components/Menu/MenuItems'
 import MenuButton from './Components/Menu/MenuButton'
@@ -11,10 +11,11 @@ import Specializations from './Components/Specializations/Specializations'
 import AboutMe from './Components/AboutMe/AboutMe'
 import MyWork from './Components/MyWork/MyWork'
 import Experience from './Components/Experience/Experience'
-import ContactForm from './Components/ContactForm/ContactForm'
+// import ContactForm from './Components/ContactForm/ContactForm'
 import Footer from './Components/Footer/Footer'
 import Scroll from './Components/ScrollButton/Scroll'
 import Form from './Components/ContactForm/Form'
+import Formspree from './Components/ContactForm/Formspree'
 // import Contact from './Components/Contact/Contact'
 // import Accordion from './Components/Specializations/Accordion'
 
@@ -66,7 +67,8 @@ class App extends React.Component {
         <MyWork />
         <Experience />
         {/* <ContactForm /> */}
-        <Form />
+        <Formspree />
+        {/* <Form /> */}
         <Scroll showBelow={250} />
 
         <Footer />

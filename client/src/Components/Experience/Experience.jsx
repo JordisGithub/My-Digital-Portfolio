@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 
 // import React from 'react';
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import "./Experience.css";
 import ShowMoreText from "react-show-more-text";
 import "react-accessible-accordion/dist/fancy-example.css";
@@ -19,10 +19,10 @@ class Experience extends Component {
             Professional Experience <span>timeline</span>
           </h1>
 
-          <div class="experience-container">
-            <div class="timeline-block timeline-block-right">
-              <div class="marker"></div>
-              <div class="timeline-content">
+          <div className="experience-container">
+            <div className="timeline-block timeline-block-right">
+              <div className="marker"></div>
+              <div className="timeline-content">
                 <h3>2019 - 2020</h3>
                 <ShowMoreText
                   lines={1}
@@ -121,9 +121,9 @@ class Experience extends Component {
               </div>
             </div>
 
-            <div class="timeline-block timeline-block-right">
-              <div class="marker"></div>
-              <div class="timeline-content">
+            <div className="timeline-block timeline-block-right">
+              <div className="marker"></div>
+              <div className="timeline-content">
                 <h3>2008 - 2017 (HSBC Bank)</h3>
                 <ShowMoreText
                   lines={1}
@@ -201,9 +201,9 @@ class Experience extends Component {
               </div>
             </div>
 
-            <div class="timeline-block timeline-block-left">
-              <div class="marker"></div>
-              <div class="timeline-content">
+            <div className="timeline-block timeline-block-left">
+              <div className="marker"></div>
+              <div className="timeline-content">
                 <h3>(JP Morgan Chase Bank) 2007 - 2008 </h3>
                 <ShowMoreText
                   lines={1}
@@ -228,9 +228,9 @@ class Experience extends Component {
               </div>
             </div>
 
-            <div class="timeline-block timeline-block-right">
-              <div class="marker"></div>
-              <div class="timeline-content">
+            <div className="timeline-block timeline-block-right">
+              <div className="marker"></div>
+              <div className="timeline-content">
                 <h3>2005 - 2007 (Aegis Communication)</h3>
                 <ShowMoreText
                   lines={1}
@@ -256,9 +256,9 @@ class Experience extends Component {
               </div>
             </div>
 
-            <div class="timeline-block timeline-block-left">
-              <div class="marker"></div>
-              <div class="timeline-content">
+            <div className="timeline-block timeline-block-left">
+              <div className="marker"></div>
+              <div className="timeline-content">
                 <h3>(Artistic Typography) 2003 - 2005 </h3>
 
                 <ShowMoreText

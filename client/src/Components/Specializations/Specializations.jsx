@@ -1,17 +1,7 @@
 // import React from "react";
 import React, { Component } from "react";
 import "./Specializations.css";
-import ReactDOM from "react-dom";
 import ShowMoreText from "react-show-more-text";
-// import React from "react";
-// import "react-accessible-accordion/dist/fancy-example.css";
-
-// import {
-//   Accordion,
-//   AccordionItem,
-//   AccordionItemTitle,
-//   AccordionItemBody,
-// } from "react-accessible-accordion";
 
 class Specializations extends Component {
   executeOnClick(isExpanded) {
@@ -131,53 +121,3 @@ class Specializations extends Component {
 }
 
 export default Specializations;
-// ReactDOM.render(<Example />, document.querySelector("[data-mount]"));
-
-{
-  /* is the
-                systematic process of 
-                
-                 Data decision making to reduce the
-                risk of those decisions. provide results that aid in product
-                development, merchants, sales, marketing. is the systematic
-                process of increasing the percentage of visitors to your company
-                site who take a desired action — subscribing to a mailing list,
-                filling out a personal information form, registering for a
-                seminar, etc.
-                <p>
-                  How important is research and gaining consumer insights in
-                  todays environment. Consumer value equations are changing
-                  rapidly. Companies should be investing in research now not
-                  cutting it. Drives measurable ROI
-                <p>
-                  Customer centric decision making. Predictive models using
-                  customer segmentation data. What products to bring to market,
-                  how to price those products, where to reach those customers
-                  and what offers to make to convert customers on those
-                  products. Data decision making to reduce the risk of those
-                  decisions. provide results that aid in product development,
-                  merchants, sales, marketing. Price and price elasticity,
-                  performance by region.
-                </p> */
-}
-{
-  /* <p>
-                  Producing online traffic via social media, SEO, and even paid
-                  search is a great start for a marketing strategy, but
-                  certainly not a guarantee that visitors will be performing the
-                  action that matters most-- converting to customers. For this,
-                  we turn our focus on CRO marketing.
-                </p>
-                CRO marketing, or Conversion Rate Optimization marketing, is the
-                systematic process of increasing the percentage of visitors to
-                your company site who take a desired action — subscribing to a
-                mailing list, filling out a personal information form,
-                registering for a seminar, etc.
-              </p> */
-}
-{
-  /* </div> */
-}
-{
-  /* </div> */
-}

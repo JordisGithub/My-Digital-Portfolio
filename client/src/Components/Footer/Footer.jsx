@@ -11,8 +11,8 @@ function Footer() {
         <p>&copy; 2020 Jordania Pereyra</p>
 
         <section>
-          <ul class="icon-list">
-            <li class="icon-item">
+          <ul className="icon-list">
+            <li className="icon-item">
               <a
                 href="https://github.com/JordisGithub"
                 className="footer-icon-link"
@@ -22,44 +22,44 @@ function Footer() {
                 <i className="fab fa-github-square"></i>
               </a>
             </li>
-            <li class="icon-item">
+            <li className="icon-item">
               <a
                 href="https://www.linkedin.com/in/jordania-pereyra/"
                 className="footer-icon-link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-linkedin-in"></i>
+                <i className="fab fa-linkedin-in"></i>
               </a>
             </li>
-            <li class="icon-item">
+            <li className="icon-item">
               <a
                 href="https://www.instagram.com/jordi_515/"
                 className="footer-icon-link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-instagram"></i>
+                <i className="fab fa-instagram"></i>
               </a>
             </li>
-            <li class="icon-item">
+            <li className="icon-item">
               <a
                 href="https://www.facebook.com/jordania.pereyra"
                 className="footer-icon-link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-facebook-f"></i>
+                <i className="fab fa-facebook-f"></i>
               </a>
             </li>
-            <li class="icon-item">
+            <li className="icon-item">
               <a
                 href="https://twitter.com/jordip515?lang=en"
                 className="footer-icon-link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-twitter"></i>
+                <i className="fab fa-twitter"></i>
               </a>
             </li>
           </ul>

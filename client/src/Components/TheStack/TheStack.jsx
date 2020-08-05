@@ -14,7 +14,7 @@ function Header() {
           <div className="my-skills">
             <div className="skill">
               <div className="icon-container">
-                <i class="fa fa-code" aria-hidden="true"></i>
+                <i className="fa fa-code" aria-hidden="true"></i>
               </div>
               <h1>Languages</h1>
               <p>JavaScript, Ruby, SQL HTML, CSS</p>
@@ -22,7 +22,7 @@ function Header() {
 
             <div className="skill">
               <div className="icon-container">
-                <i class="fa fa-desktop" aria-hidden="true"></i>
+                <i className="fa fa-desktop" aria-hidden="true"></i>
               </div>
               <h1>Framework</h1>
               <p> React</p>
@@ -30,7 +30,7 @@ function Header() {
 
             <div className="skill">
               <div className="icon-container">
-                <i class="fa fa-database" aria-hidden="true"></i>
+                <i className="fa fa-database" aria-hidden="true"></i>
               </div>
 
               <h1>Databases</h1>
@@ -40,7 +40,7 @@ function Header() {
 
             <div className="skill">
               <div className="icon-container">
-                <i class="fa fa-server" aria-hidden="true"></i>
+                <i className="fa fa-server" aria-hidden="true"></i>
               </div>
               <h1>Server</h1>
               <p>Node.js</p>

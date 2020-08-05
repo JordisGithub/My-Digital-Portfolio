@@ -49,10 +49,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "Jordania Pereyra's Digital Portfolio",
-  "main": "index.js",
-  "devDependencies": {},
-  "author": "Jordania Pereyra",
-  "license": "ISC"
+  }
 }

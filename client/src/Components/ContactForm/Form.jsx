@@ -88,7 +88,7 @@ export default class Form extends Component {
             <h6>Let's Work Together</h6>
           </div>
           <div className="form-container">
-            <form>
+            <form onSubmit={this.formSubmit}>
               {/* ///////////////////////// */}
               {/* //////* Single Item ///// */}
               {/* ///////////////////////// */}
@@ -165,11 +165,12 @@ export default class Form extends Component {
               {/* ///////////////////////// */}
               {/* ///////ends here///////// */}
               {/* ///////////////////////// */}
-              <div className="msg">Your message was sent</div>
-              <div className="form-btn">
-                <button type="submit" className="btn">
-                  Submit
-                </button>
+              <div className={this.state.sent ? "msg msgAppear" : "msg"}>
+                Message has been sent
+              </div>
+
+              <div className={"form-btn"}>
+                <button type="submit">Submit</button>
               </div>
             </form>
           </div>

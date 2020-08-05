@@ -34,7 +34,11 @@ function Header() {
         </div> */}
         <div className="border intro__img">
           <div className="frame">
-            <img className="image" src="https://i.imgur.com/oLEOvKU.jpg"></img>
+            <img
+              className="image"
+              src="https://i.imgur.com/oLEOvKU.jpg"
+              alt="Jordi in Brooklyn NY"
+            ></img>
           </div>
         </div>
         ;
