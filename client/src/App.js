@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import React, { useState, useRef } from 'react';
+import MenuItems from './Components/Menu/MenuItems'
+import MenuButton from './Components/Menu/MenuButton'
+import Menu from './Components/Menu/Menu'
 import './App.css';
 import Header from './Components/Header/Header'
 import TheStack from './Components/TheStack/TheStack'
@@ -10,21 +13,12 @@ import MyWork from './Components/MyWork/MyWork'
 import Experience from './Components/Experience/Experience'
 import ContactForm from './Components/ContactForm/ContactForm'
 import Footer from './Components/Footer/Footer'
-import Scroll from './Components/Footer/Scroll'
+import Scroll from './Components/ScrollButton/Scroll'
+import Form from './Components/ContactForm/Form'
+// import Contact from './Components/Contact/Contact'
+// import Accordion from './Components/Specializations/Accordion'
 
-import MenuItems from './Components/Menu/MenuItems'
-import MenuButton from './Components/Menu/MenuButton'
-import Menu from './Components/Menu/Menu'
 
-import Contact from './Components/Contact/Contact'
-import Accordion from './Components/Specializations/Accordion'
-
-// import {
-//   app,
-//   port,
-//   data,
-//   mailoptions
-// } from './Services/api-helper.jsx';
 
 
 class App extends React.Component {
@@ -71,7 +65,8 @@ class App extends React.Component {
         <AboutMe />
         <MyWork />
         <Experience />
-        <ContactForm />
+        {/* <ContactForm /> */}
+        <Form />
         <Scroll showBelow={250} />
 
         <Footer />

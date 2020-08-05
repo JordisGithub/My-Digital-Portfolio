@@ -54,6 +54,7 @@
     display: flex;
     animation: pulse 2s infinite;
     cursor: pointer;
+    scroll-behavior: smooth;
   }
 
   .up i {
