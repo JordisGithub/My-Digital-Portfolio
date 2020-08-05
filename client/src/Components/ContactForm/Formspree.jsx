@@ -40,7 +40,7 @@ export default class MyForm extends React.Component {
                   name="name"
                   id="name"
                   className="name"
-                  required=""
+                  required
                   placeholder="your name..."
                 />
               </div>
@@ -55,7 +55,7 @@ export default class MyForm extends React.Component {
                   name="email"
                   id="email"
                   className="name"
-                  required=""
+                  required
                   placeholder="Enter your email..."
                 />
               </div>
@@ -80,12 +80,7 @@ export default class MyForm extends React.Component {
               {/* ///////////////////////// */}
               <div className="singleitem">
                 <label htmlFor="services">Services</label>
-                <select
-                  name="services"
-                  id="services"
-                  className="name"
-                  required=""
-                >
+                <select name="services" id="services" className="name" required>
                   <option>SELECT</option>
                   <option value="Web/App Development">
                     Web/App Development
@@ -117,10 +112,14 @@ export default class MyForm extends React.Component {
                 <p>Your message was sent, I'll get back to you soon!</p>
               ) : (
                 <div className={"form-btn"}>
-                  <button type="submit">Submit</button>
+                  <button type="submit" value="Send Message">
+                    Submit
+                  </button>
                 </div>
               )}
               {status === "ERROR" && <p>Ooops! There was an error.</p>}
+
+              {/* <input type="submit" value="Send Message"></input> */}
             </form>
           </div>
         </section>

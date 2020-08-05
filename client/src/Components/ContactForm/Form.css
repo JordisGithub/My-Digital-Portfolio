@@ -1,16 +1,18 @@
 .form-section {
   background-color: black;
-  margin: auto;
-  padding-top: 150px;
+  margin: 0 auto;
+  margin-bottom: -50px;
+  /* padding-top: 150px; */
 }
 
 .section-heading {
   text-align: center;
+  color: white;
 }
 
 .form-container {
   color: white;
-  margin: 100px auto;
+  margin: 70px auto 0px;
   width: 70%;
 }
 
@@ -56,6 +58,8 @@
   transition: all 0.5s ease-in-out;
   position: relative;
   margin-top: 15px;
+  margin-bottom: -200px;
+  /* background-color: red; */
 }
 
 .msg {
