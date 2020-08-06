@@ -82,7 +82,7 @@
   display: block;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 800px) and (-webkit-device-pixel-ratio: 2) {
   .form-section {
     /* background-color: black;
     margin: auto; */
@@ -91,6 +91,7 @@
 
   .form-btn button {
     margin-bottom: 50px;
+
     /* background-color: red; */
   }
 }
