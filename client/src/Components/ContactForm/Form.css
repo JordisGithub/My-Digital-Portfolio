@@ -92,7 +92,8 @@
   .form-btn button {
     /* margin-bottom: 50px; */
 
-    background-color: red;
+    background-color: #ff69b4;
+    background-color: linear-gradient(to top, #ff69b4, #c32c7f, #88004e);
   }
 }
 
