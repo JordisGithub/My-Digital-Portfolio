@@ -172,6 +172,7 @@ export default class Form extends Component {
               <div className="form-btn">
                 <button type="submit">Submit</button>
               </div>
+              <button className="btn">Send Message</button>
             </form>
           </div>
         </section>

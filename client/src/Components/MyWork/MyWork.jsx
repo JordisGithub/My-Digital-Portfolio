@@ -9,21 +9,21 @@ export default function MyWork() {
         <p className="section__subtitle">A selection of my range of work</p>
 
         <div className="portfolio">
-          {/* Portfolio item 1 */}
-          {/* <div className="portfolio-item"> */}
-          {/* <div className="portfolio-item-title">
+          Portfolio item 1
+          <div className="portfolio-item">
+            <div className="portfolio-item-title">
               Sustainable Fashion Scorecards
-            </div> */}
+            </div>
 
-          {/* <div className="porfolioitem-image-container">
+            <div className="porfolioitem-image-container">
               <img
                 src="https://i.imgur.com/kY9n97B.png"
                 alt=""
                 className="portfolio__img"
               />
-            </div> */}
+            </div>
 
-          {/* <div className="portfolio-description">
+            <div className="portfolio-description">
               <h1 className="portfolio-item-tagline">
                 sustainability scorecards ratings on your favorite designers.
                 <br />
@@ -38,9 +38,9 @@ export default function MyWork() {
                 ultimate Plattform of sustainable shopping with sustainability
                 scorecards and might I add very POSH look ideas!
               </div>
-            </div> */}
+            </div>
 
-          {/* <div className="portfolio-techused">
+            <div className="portfolio-techused">
               <h6>TECHNOLOGIES USED</h6>
               <div className="techused-details">
                 <p>Ruby</p>
@@ -51,24 +51,24 @@ export default function MyWork() {
                 <p>Javascript</p>
                 <p></p>
               </div>
-            </div> */}
+            </div>
 
-          {/* <div className="portfolio-dependencies"> */}
-          {/* <h6>Dependencies</h6> */}
-          {/* <div className="dependencies-details">
+            <div className="portfolio-dependencies">
+              <h6>Dependencies</h6>
+              <div className="dependencies-details">
                 <p>Axios</p>
                 <p>React</p>
                 <p>bcrypt</p>
                 <p>jsonwebtoken</p>
                 <p>sequelize</p>
-                <p>Nodemon</p> */}
-          {/* <p>cors</p> */}
-          {/* <p>body-parser</p> */}
-          {/* <p></p> */}
-          {/* </div> */}
-          {/* </div> */}
+                <p>Nodemon</p>
+                <p>cors</p>
+                <p>body-parser</p>
+                <p></p>
+              </div>
+            </div>
 
-          {/* <div className="portfolio-links">
+            <div className="portfolio-links">
               <a
                 href="https://sustainable-fashion.surge.sh/"
                 className="btn"
@@ -85,9 +85,8 @@ export default function MyWork() {
               >
                 See Code
               </a>
-            </div> */}
-          {/* </div> */}
-
+            </div>
+          </div>
           {/* Portfolio item 3 */}
           <div className="portfolio-item">
             <div className="portfolio-item-title">Restaurant Website</div>
@@ -157,7 +156,6 @@ export default function MyWork() {
               </a>
             </div>
           </div>
-
           {/* Portfolio item 2 */}
           <div className="portfolio-item">
             <div className="portfolio-item-title">
@@ -237,7 +235,6 @@ export default function MyWork() {
               </a>
             </div>
           </div>
-
           {/* Portfolio item 4 */}
           {/* <div className="portfolio-item">
             <div className="portfolio-item-title">Fashion Blog</div>
