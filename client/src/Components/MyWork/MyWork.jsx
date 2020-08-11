@@ -9,8 +9,8 @@ export default function MyWork() {
         <p className="section__subtitle">A selection of my range of work</p>
 
         <div className="portfolio">
-          Portfolio item 1
-          <div className="portfolio-item">
+          {/* Portfolio item 1 */}
+          {/* <div className="portfolio-item">
             <div className="portfolio-item-title">
               Sustainable Fashion Scorecards
             </div>
@@ -86,7 +86,7 @@ export default function MyWork() {
                 See Code
               </a>
             </div>
-          </div>
+          </div> */}
           {/* Portfolio item 3 */}
           <div className="portfolio-item">
             <div className="portfolio-item-title">Restaurant Website</div>
