@@ -10,7 +10,7 @@ export default function MyWork() {
 
         <div className="portfolio">
           {/* Portfolio item 1 */}
-          {/* <div className="portfolio-item">
+          <div className="portfolio-item">
             <div className="portfolio-item-title">
               Sustainable Fashion Scorecards
             </div>
@@ -70,7 +70,7 @@ export default function MyWork() {
 
             <div className="portfolio-links">
               <a
-                href="https://sustainable-fashion.surge.sh/"
+                href="http://sustainablychicfashion.com/"
                 className="btn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -86,7 +86,7 @@ export default function MyWork() {
                 See Code
               </a>
             </div>
-          </div> */}
+          </div>
           {/* Portfolio item 3 */}
           <div className="portfolio-item">
             <div className="portfolio-item-title">Restaurant Website</div>
@@ -139,7 +139,7 @@ export default function MyWork() {
 
             <div className="portfolio-links">
               <a
-                href="https://chikalicious.surge.sh/"
+                href="http://chikaliciousdesserts.com/"
                 className="btn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -218,7 +218,7 @@ export default function MyWork() {
 
             <div className="portfolio-links">
               <a
-                href="https://supernova-gems.netlify.app/"
+                href="http://supernovagemsonline.com/"
                 rel="noopener noreferrer"
                 className="btn"
                 target="_blank"
@@ -235,8 +235,8 @@ export default function MyWork() {
               </a>
             </div>
           </div>
-          {/* Portfolio item 4 */}
-          {/* <div className="portfolio-item">
+          Portfolio item 4
+          <div className="portfolio-item">
             <div className="portfolio-item-title">Fashion Blog</div>
 
             <div className="porfolioitem-image-container">
@@ -287,7 +287,7 @@ export default function MyWork() {
 
             <div className="portfolio-links">
               <a
-                href="https://sustainable-fashion-movement.netlify.app/#/"
+                href="http://sustainablefashionnetwork.com"
                 className="btn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -298,6 +298,84 @@ export default function MyWork() {
                 href="https://github.com/JordisGithub/fashion-app"
                 className="btn"
                 target="_blank"
+              >
+                See Code
+              </a>
+            </div>
+          </div>
+          {/* Portfolio item 6 */}
+          {/* <div className="portfolio-item">
+            <div className="portfolio-item-title">
+              Sustainable Makeup App
+            </div>
+
+            <div className="porfolioitem-image-container">
+              <img
+                src=""
+                alt=""
+                className="portfolio__img"
+              />
+            </div>
+
+            <div className="portfolio-description">
+              <h1 className="portfolio-item-tagline">
+                sustainability Makeup Looks and products.
+                <br />
+                Yup there's an app for that!
+              </h1>
+              <div className="portfolio-item-longdescription">
+                Sustainably Chic operates as a marketplace for mid to high
+                market sustainable brands. We also include a sustainability
+                score rating model to rate the brands and provide full
+                transparency around the sustainability impact and rating factors
+                of your favorite outfit and designers. Think of it as the
+                ultimate Plattform of sustainable shopping with sustainability
+                scorecards and might I add very POSH look ideas!
+              </div>
+            </div>
+
+            <div className="portfolio-techused">
+              <h6>TECHNOLOGIES USED</h6>
+              <div className="techused-details">
+                <p>Ruby</p>
+                <p>React</p>
+                <p>Rails</p>
+                <p>JSX</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+                <p></p>
+              </div>
+            </div>
+
+            <div className="portfolio-dependencies">
+              <h6>Dependencies</h6>
+              <div className="dependencies-details">
+                <p>Axios</p>
+                <p>React</p>
+                <p>bcrypt</p>
+                <p>jsonwebtoken</p>
+                <p>sequelize</p>
+                <p>Nodemon</p>
+                <p>cors</p>
+                <p>body-parser</p>
+                <p></p>
+              </div>
+            </div>
+
+            <div className="portfolio-links">
+              <a
+                href="https://simplysustainablemakeup.com/"
+                className="btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                See Live Site
+              </a>
+              <a
+                href="https://github.com/JordisGithub/Sustainable-Makeup-Bag"
+                className="btn"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 See Code
               </a>
