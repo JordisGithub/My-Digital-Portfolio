@@ -236,7 +236,7 @@ export default function MyWork() {
             </div>
           </div>
           {/* Portfolio item 4 */}
-          {/* <div className="portfolio-item">
+          <div className="portfolio-item">
             <div className="portfolio-item-title">Fashion Blog</div>
 
             <div className="porfolioitem-image-container">
@@ -302,7 +302,7 @@ export default function MyWork() {
                 See Code
               </a>
             </div>
-          </div> */}
+          </div>
           {/* Portfolio item 6 */}
           {/* <div className="portfolio-item">
             <div className="portfolio-item-title">
